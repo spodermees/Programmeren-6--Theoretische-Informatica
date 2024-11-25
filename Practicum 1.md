@@ -6,10 +6,10 @@
 
 ## Opdracht 2
 
-1. $n^3$
+1. T(n) = $17n^3$ - $13n^2$ + 10n 2000 > constante weg > T(n) = $17n^3$ - $13n^2$ + 10n > grootse stijger > $17n^3$>  $O(n^3)$
 
-2. $2^n$
+3. $2^n$
 
-3. $n^2$
+4. $n^2$
 
 ## Opdracht 3
