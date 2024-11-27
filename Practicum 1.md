@@ -49,6 +49,6 @@ De verwissel operatie, met constante tijd, vindt in de binnenste loop plaats, du
 
 Dus de complete tijdscomplexiteit is:
 
-$$T(n) = O\bigl(\frac{(n-1)n}{2}\bigr) = O(n^2)$$
+$$T(n) = O\biggl(\frac{(n-1)n}{2}\biggr) = O(n^2)$$
 
 ## Opdracht 4
