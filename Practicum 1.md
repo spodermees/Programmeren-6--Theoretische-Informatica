@@ -53,13 +53,28 @@ $$T(n) = O\biggl(\frac{(n-1)n}{2}\biggr) = O(n^2)$$
 
 ## Opdracht 4
 
-Bubblesort in pseudocode:
+### Bubblesort in pseudocode
 
 1. Loop continu door de lijst met elementen
 2. Voor elke iteratie, vergelijk elk paar aangrenzende elementen:
    Als $a[j] > a[j+1]$, verwissel deze twee.
 3. Stop wanneer er in een iteratie geen verwisselingen meer nodig zijn.
 
-Tijdsanalyse:
+### Tijdsanalyse
 - Buitenste lus: Doorloopt de lijst maximaal n - 1 keer.
 - Binnenste lus: Voor elke iteratie van de buitenste lus, worden de resterende n - i - 1 paren vergeleken en mogelijk verwisseld (waarbij i het huidige iteratienummer is van de buitenste lus).
+
+Het totale aantal vergelijkingen in het slechtste geval (wanneer de lijst volledig omgekeerd is) is:
+
+$$(n - 1) + (n - 2) + ... + 1 = \frac{n(n-1)}{2}$$
+
+De verwissel operatie is O(1) en wordt uitgevoerd bij elk paar dat niet correct is gesorteerd. In het slechtste geval gebeurt dit ook $O(n^2)$ keer.
+De totale tijdscomplexiteit in het slechtste geval is dus:
+
+$$T(n) = O(n^2)$$
+
+### Conclusie
+
+De tijdscomplexiteit van BubbleSort in het slechtste geval $(O(n^2))$ is gelijk aan die van het vorige algoritme. Echter, BubbleSort kan beter presteren in het beste geval, omdat het afhankelijk is van het aantal benodigde verwisselingen.
+
+## Opdracht 5
