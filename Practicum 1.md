@@ -36,3 +36,7 @@
 3. T(n)= $20\log_2 n$ > + $n^2$ > grootste stijger > $n^2$ > $O(n^2)$
 
 ## Opdracht 3
+
+Wanneer i = 1, loopt j van 2 tot n. Wanneer i = 2, loopt j van 3 tot n. Dit gaat door totdat i = n - 1, waarbij j precies één iteratie uitvoert.
+Dus het totale aantal iteraties is:
+(n - 1) + (n - 2) + ... + 1
