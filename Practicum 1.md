@@ -52,3 +52,14 @@ Dus de complete tijdscomplexiteit is:
 $$T(n) = O\biggl(\frac{(n-1)n}{2}\biggr) = O(n^2)$$
 
 ## Opdracht 4
+
+Bubblesort in pseudocode:
+
+1. Loop continu door de lijst met elementen
+2. Voor elke iteratie, vergelijk elk paar aangrenzende elementen:
+   Als $a[j] > a[j+1]$, verwissel deze twee.
+3. Stop wanneer er in een iteratie geen verwisselingen meer nodig zijn.
+
+Tijdsanalyse:
+- Buitenste lus: Doorloopt de lijst maximaal n - 1 keer.
+- Binnenste lus: Voor elke iteratie van de buitenste lus, worden de resterende n - i - 1 paren vergeleken en mogelijk verwisseld (waarbij i het huidige iteratienummer is van de buitenste lus).
