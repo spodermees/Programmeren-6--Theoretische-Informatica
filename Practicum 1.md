@@ -33,7 +33,7 @@
 
 2. T(n) = $3^n$ - 13n > grootste stijger > $3^n$ > $O(2^n)$
 
-3. T(n)= $20\log_2 n$ > + $n^2$ > grootste stijger > $n^2$ > $O(n^2)$
+3. T(n)= $20\log_2 n$ + $n^2$ > grootste stijger > $n^2$ > $O(n^2)$
 
 ## Opdracht 3
 
