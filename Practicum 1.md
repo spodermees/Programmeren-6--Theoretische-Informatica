@@ -47,6 +47,6 @@ De verwissel operatie, met constante tijd, vindt in de binnenste loop plaats, du
 
 Dus de complete tijdscomplexiteit is:
 
-$T(n) = O((n-1)n/2) = O(n^2)
+$T(n) = O((n-1)n/2) = O(n^2)$
 
 ## Opdracht 4
