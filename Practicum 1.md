@@ -41,4 +41,12 @@ Wanneer i = 1, loopt j van 2 tot n. Wanneer i = 2, loopt j van 3 tot n. Dit gaat
 Dus het totale aantal iteraties is:
 (n - 1) + (n - 2) + ... + 1
 
-Oftewel: S = $(n - 1)n/2$
+Oftewel: $S = (n - 1)n/2$
+
+De verwissel operatie, met constante tijd, vindt in de binnenste loop plaats, dus dat is de loop die de totale tijd bepaald.
+
+Dus de complete tijdscomplexiteit is:
+
+$T(n) = O((n-1)n/2) = O(n^2)
+
+## Opdracht 4
