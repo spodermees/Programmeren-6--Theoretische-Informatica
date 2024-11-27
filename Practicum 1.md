@@ -40,3 +40,5 @@
 Wanneer i = 1, loopt j van 2 tot n. Wanneer i = 2, loopt j van 3 tot n. Dit gaat door totdat i = n - 1, waarbij j precies één iteratie uitvoert.
 Dus het totale aantal iteraties is:
 (n - 1) + (n - 2) + ... + 1
+
+Oftewel: S = $(n - 1)n/2$
