@@ -78,3 +78,10 @@ $$T(n) = O(n^2)$$
 De tijdscomplexiteit van BubbleSort in het slechtste geval $(O(n^2))$ is gelijk aan die van het vorige algoritme. Echter, BubbleSort kan beter presteren in het beste geval, omdat het afhankelijk is van het aantal benodigde verwisselingen.
 
 ## Opdracht 5
+
+Het genereren van alle permutaties van n verschillende voorwerpen betekent dat we een lijst van n! verschillende volgordes van deze n voorwerpen produceren. Laten we de tijdscomplexiteit analyseren:
+
+Aantal permutaties:
+Het aantal permutaties van n elementen is n!, omdat:
+
+$$n! = n\cdot(n-1)\cdot(n-2)...\cdot 1$$
