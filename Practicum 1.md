@@ -3,7 +3,7 @@
 ## Opdracht 1
 
 1. start is i = n -1
-   voorwaarde is i < $n^2$
+   voorwaarde is i < n
    increment is i++
    T(n) = 1, omdat na 1 lus de i groter is dan n
 
