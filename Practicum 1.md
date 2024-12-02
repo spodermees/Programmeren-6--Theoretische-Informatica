@@ -81,7 +81,25 @@ De tijdscomplexiteit van BubbleSort in het slechtste geval $(O(n^2))$ is gelijk 
 
 Het genereren van alle permutaties van n verschillende voorwerpen betekent dat we een lijst van n! verschillende volgordes van deze n voorwerpen produceren. Laten we de tijdscomplexiteit analyseren:
 
-Aantal permutaties:
+1. Aantal permutaties:
 Het aantal permutaties van n elementen is n!, omdat:
 
-$$n! = n\cdot(n-1)\cdot(n-2)...\cdot 1$$
+$$n! = n\cdot(n-1)\cdot(n-2)\cdot...\cdot 1$$
+
+2. Per permutatie:
+Voor elke permutatie worden de n elementen in een bepaalde volgorde gerangschikt. Meestal vereist dit O(n) werk per permutatie (bijvoorbeeld het opslaan van de permutatie, afdrukken, of toevoegen aan een lijst).
+
+3. Totale tijdcomplexiteit:
+Omdat er n! permutaties zijn en elk ervan O(n) werk vereist, is de totale tijdscomplexiteit:
+
+$$T(n) = O(n\cdot n!)$$
+
+De faculteit n! groeit extreem snel. Voor grote waarden van n domineert n! de tijdcomplexiteit, en $n\cdot n!$ wordt nauwelijks merkbaar groter dan n!.
+
+### Conclusie
+
+De tijdcomplexiteit van een algoritme om alle permutaties van n verschillende voorwerpen te genereren is:
+
+$$O(n\cdot n!)$$
+
+## Opdracht 6
