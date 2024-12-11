@@ -30,3 +30,12 @@ Waar haal jij het gore lef vandaan om onze vrienden af te pakken met he tyfus go
 
 ### Extra info
 Franciska is een jaartje of 40 en is een erg gepasioneerde Jan Smit fan.
+
+## Qucee
+Qucee is een zeer geveersde fortine speler in de fortnite prime van youtube Nederland.
+
+### Het huis
+In een intense fight in een duo potje fortnite zijn Qucee en zijn team mate Enzo knol in wailing woods. Qucee en Enzo liggen onder hevig vuur maar daar komen de bouw skills van Qucee goed van pas. "Ik heb een ~~kan~~ kaulo mooi huis gebouwd." zegt Qucee "Ik weet niet van waar" Zei Enzo. "Kom kom in mijn huis ik heb een huis voor jou gebouwd."
+
+### Op de zolder
+Qucee wordt gesniped. Ja krijg de tering man krijf de tering hoh, hoh shit ooh ooh ahh. Bro ik ben met m'n stoel naar achter gevallen man. Echt? ja man tering heel me elleboog doet pijn ahh man ahh shit.
