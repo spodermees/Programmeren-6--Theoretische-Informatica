@@ -103,3 +103,11 @@ De tijdcomplexiteit van een algoritme om alle permutaties van n verschillende vo
 $$O(n\cdot n!)$$
 
 ## Opdracht 6
+
+## Opdracht 8
+### Spellen
+Schaken kan op het eerste oog makkelijk lijken maar meestal zit er een ingewikkeld vraagstuk achter waarbij veel vooruit gedacht moet worden.
+
+### Rubiks kubus
+Het husselen van een rubiks is makkelijk gedaan alleen het oplossen is lastiger en duurt langer.
+
