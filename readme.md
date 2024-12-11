@@ -39,3 +39,10 @@ In een intense fight in een duo potje fortnite zijn Qucee en zijn team mate Enzo
 
 ### Op de zolder
 Qucee wordt gesniped. Ja krijg de tering man krijf de tering hoh, hoh shit ooh ooh ahh. Bro ik ben met m'n stoel naar achter gevallen man. Echt? ja man tering heel me elleboog doet pijn ahh man ahh shit.
+
+## Roy (level 33)
+
+Roy is Roy
+
+### C4
+Hoe detonate hoe detonte ik zo'n C4?? Hoe detonate ik zo'n fucking C4 jonge. Ik klik fucking alle knoppen ik klik op L2 R2 Noem het maar op het gewoon niet Bonk* Pauper C4 wat een kut ding is dat dan. Nou ga ik ragen wacht ik moet ff afkoelen ik word helemaal fucking gek. KANKER 
