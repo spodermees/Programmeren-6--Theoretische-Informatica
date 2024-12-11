@@ -1,6 +1,6 @@
 # Alle problemen
 
-## Tom zn partytent verhaal
+## Tom z'n partytent verhaal
 
 Tom heeft een feestje op 1 december er zijn alleen enkele complicaties voor dit feestje
 
@@ -15,7 +15,7 @@ Eindstand ik vraag tegen m'n ma en Koert "Hebben jullie een partytent?" "Ja we h
 
 
 ## Jan Smit appgroep
-Er is een Jan Smit fan groepsapp op whatsapp, waarschijnlijk in Volendam. Alleen heeft Adela een nieuwe groep gemaakt. Franciska is het hier niet mee eens en laat dir op een vriendelijke manier weten aan Adela.
+Er is een Jan Smit fan groepsapp op whatsapp, waarschijnlijk in Volendam. Alleen heeft Adela een nieuwe groep gemaakt. Franciska is het hier niet mee eens en laat dat op een vriendelijke manier weten aan Adela.
 
 ### Voorstellen
 Hey Adela jij kent mij vast nog wel ik ben Franciska de vriendin van Mitchel. Ik heb van Mitchel gehoord dat jij een Jan Smit app aangemaakt heb en onze leden probeert af te pakken.
