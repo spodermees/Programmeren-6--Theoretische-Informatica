@@ -1,4 +1,4 @@
-# Tom zn partytent verhaal
+# Tom z'n partytent verhaal
 
 Tom heeft een feestje op 1 december er zijn alleen enkele complicaties voor dit feestje
 
