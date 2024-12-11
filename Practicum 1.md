@@ -104,3 +104,10 @@ $$O(n\cdot n!)$$
 
 ## Opdracht 6
 
+## Opdracht 8
+### Spellen
+Schaken op het eerste oog kan een puzzel makkelijk lijken maar meestal zit er een ingewikkeld vraagstuk achter waarbij veel vooruit gedacht moet worden.
+
+### Rubiks kubus
+Het husselen van een rubiks is makkelijk gedaan alleen het oplossen is lastiger en duurt langer.
+
