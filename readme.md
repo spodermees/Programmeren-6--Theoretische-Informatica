@@ -46,3 +46,15 @@ Roy is Roy
 
 ### C4
 Hoe detonate hoe detonte ik zo'n C4?? Hoe detonate ik zo'n fucking C4 jonge. Ik klik fucking alle knoppen ik klik op L2 R2 Noem het maar op het gewoon niet Bonk* Pauper C4 wat een kut ding is dat dan. Nou ga ik ragen wacht ik moet ff afkoelen ik word helemaal fucking gek. **Bonk** KANKER 
+
+## MauriVlogs
+MauriVlogs is een van de meest bekende Nederlandse youtube prankers
+
+### Horsefighter
+Vandaag heeft Mauri twee vissen gekocht
+
+#### Intro
+Deze vis heet Horsefighter Mortel kan blijven leven en HORSEFIGHTER die gaan we liquideren. Hallo beste mensen ik gooi nu een beetje boter in de pan. Ik ga de vis Horsefighter opeten.
+
+#### Het bakken van de vis
+Ik ga de vis in de pan leggen. 
