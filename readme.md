@@ -57,4 +57,4 @@ Vandaag heeft Mauri twee vissen gekocht
 Deze vis heet Horsefighter Mortel kan blijven leven en HORSEFIGHTER die gaan we liquideren. Hallo beste mensen ik gooi nu een beetje boter in de pan. Ik ga de vis Horsefighter opeten.
 
 #### Het bakken van de vis
-Ik ga de vis in de pan leggen. 
+Ik ga de vis in de pan leggen. 'Spatter spatter'  'bak geluiden' Mensen ik ben nu HORSEFIGHTER aan het opbakken. De vis heet HORSEFIGHTER en ik ga hem lekker op smaak brengen met een beetje zout.
