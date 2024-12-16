@@ -60,3 +60,16 @@ Deze vis heet Horsefighter Mortel kan vandaag blijven leven en HORSEFIGHTER die 
 Ik ga de vis in de pan leggen. 'Spatter spatter'  'bak geluiden' Mensen ik ga nu de vis op bakken jullie gaan zien. Hij spartelt nog. Mensen ik ben nu HORSEFIGHTER aan het opbakken. De vis heet HORSEFIGHTER en ik ga hem lekker op smaak brengen met een beetje zout. Mensen jullie gaan zien. (kkr veel zout geluiden) Ja die is goed dood. (Nieuw frame Mauri zet zijn hoofd naast de pan met de dode HORSEFIGHTER) De vis Horsefighter is bijna klaar met bakken die ligt nu lekker in de pan te sudderen lekker op te bakken. M'n andere vis staat op tafel. Dat is m'n vis Mortel en Mortel zet ik lekker in m'n woonkamer.
 
 #### Taste test
+
+
+## Lift
+Er zaten eens 3 hagenesen vast in een Lift
+
+### De lift komt vast te staan
+Valt weinig te doen het enige wat je kan doen is op het belletje drukken. Maar we zitten hier in een appartementencomplex ik weet niet of er iemand gaat reageren.
+Ik kan echt niet mike.
+Te zwaar zijn we gewoon 450 kilo. HAhahaha
+Kan je gaan lachen maar ik mot er echt uit.
+(Er wordt in het spaans gereageerd op het belletje)
+
+We zijn vast in de liftos
