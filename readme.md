@@ -13,6 +13,13 @@ Ik zeg "ma" ik zeg "dat gaat hem niet worden" ik zeg "je boekt maar een fucking 
 ### Eindstand
 Eindstand ik vraag tegen m'n ma en Koert "Hebben jullie een partytent?" "Ja we hebben een partytent." "IS die dicht aan de zijkant?" "Ja Tom hij is dicht aan de zijkant." IK HAAL DIE KANKER PARTYTENT OP. IK ZET DIE KANKER PARTYTENT UIT EN WAT IS DIE OPEN KANKER ZIJKANT
 
+## Zware jeugd
+Gino Pietermaai is een in een emotioneel interview aan het praten over zijn jeugd.
+
+Ja, m;n jeugd. Zal ik beginnen? Mijn jeugd was best wel zwaar..
+
+MIJN JEUGD WAS ZWAAR MASTER. Ik deed alles wat ik wilde. Ik heb mijn vader leren neuken, ik neukte wie ik wilde. Buiten ging ik vechten met chamos. Ik had een leguaan, die trainde ik als bulldog. Op een gegeven moment heb ik de leguaan leren vissen. Hij ging vissen, hij duikt in die water. Tsjoeng. Ging helemaal omlaag. Kwam hij een keer terug met een dolfijn. Op een gegeven moment ging hij dood man. Hij ging dood omdat zn hart ontploften van de push ups.
+Maar is niet erg man want ik heb zijn vlees verkocht aan wat Tjinezen. Ze hebben shusi mee gemaakt ik heb gecasht. Was leuke jeugd man. Maar vertel: hoe was jouw jeugd Fresku?
 
 ## Jan Smit appgroep
 Er is een Jan Smit fan groepsapp op whatsapp, waarschijnlijk in Volendam. Alleen heeft Adela een nieuwe groep gemaakt. Franciska is het hier niet mee eens en laat dat op een vriendelijke manier weten aan Adela.
@@ -100,3 +107,4 @@ Nee dank-
 Uhhhhh nee hoor dankuwel.
 
 *Onverstaanbaar U mag doorijden*
+
