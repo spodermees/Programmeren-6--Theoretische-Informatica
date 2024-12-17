@@ -73,3 +73,30 @@ Kan je gaan lachen maar ik mot er echt uit.
 (Er wordt in het spaans gereageerd op het belletje)
 
 We zijn vast in de liftos
+
+## Bradge
+Bradley van Dijk ook wel bekend als The Bradge op het internet is een zwaar iemand. Ja gewoon een zwaar iemand die een uitkering heeft en livestreamt op het internet.
+
+### Fooi
+Ik heb voor het eerst op mijn werk fooi gekregen.\
+2 Euro.\
+Das mooi, dit extraatje gaat nu naar de Mac Donalds voor een hele korte, maar des al niet te min misschien wel hele leuke food review van een chili chicken. \
+Lets go.
+
+**Rijd naar de Mac**
+
+**Handrem geluid**
+
+*Goedenavond mag ik uw besteling??*
+
+Goedenavond, uhh 1 chili chicken graag.
+
+*Wilt u wat te drinken meneer?*
+
+Nee dank- 
+
+*Een menu?*
+
+Uhhhhh nee hoor dankuwel.
+
+*Onverstaanbaar U mag doorijden*
