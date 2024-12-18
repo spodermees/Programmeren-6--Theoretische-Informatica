@@ -104,8 +104,4 @@ $$O(n\cdot n!)$$
 
 ## Opdracht 6
 
-
-De matrix moet in driehoeksvorm geschreven worden. dit geeft voor de eerste rij(n-1) operaties 
-omdat dit de bovenste driehoekvorm is wordt bij de tweede rij (n-1 * n-1) dus (n^2)
-derde rij (n-2 * n-2 ) 
-etc. Dit geeft O(N^2) per rij. We hebben n kolommen dus dit is dan (n * n^2) = O(n^3)
+De matrix moet in driehoeksvorm geschreven worden. Dit geeft voor de eerste rij (n-1) operaties, omdat dit de bovenste driehoekvorm is wordt bij de tweede rij (n-1 * n-1) dus $(n^2)$, derde rij (n-2 * n-2 ), etc. Dit geeft $O(N^2)$ per rij. We hebben n kolommen dus dit is dan $(n * n^2) = O(n^3)$
