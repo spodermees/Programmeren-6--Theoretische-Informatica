@@ -104,6 +104,45 @@ $$O(n\cdot n!)$$
 
 ## Opdracht 6
 
+De matrix moet in driehoeksvorm geschreven worden. Dit geeft voor de eerste rij (n-1) operaties, omdat dit de bovenste driehoekvorm is wordt bij de tweede rij (n-1 * n-1) dus $(n^2)$, derde rij (n-2 * n-2 ), etc. Dit geeft $O(N^2)$ per rij. We hebben n kolommen dus dit is dan $(n * n^2) = O(n^3)$
+
+## Opdracht 7
+
+### Klassieke schrijfwijze
+
+Voor deze evaluatie moeten:
+
+1. Alle machten van x worden berekend $(x^2, x^3, ..., x^n)$
+2. Vervolgens worden deze machten vermenigvuldigd met de bijbehorende coëfficiënten $a_i$
+3. Tot slot worden alle termen opgeteld.
+
+Dit vereist:
+
+- n vermenigvuldigingen voor $x^i$(waarbij exponentiële vermenigvuldigingen worden uitgevoerd).
+- n vermenigvuldigingen van de coëfficiënten met de resultaten van $x^i$.
+- n optellingen om de termen samen te voegen.
+De totale tijdscomplexiteit wordt hierdoor $O(n^2)$, omdat de berekening van $x^i$ exponentiële vermenigvuldigingen vereist.
+
+### Horner's regel
+
+Met Horner's regel wordt het aantal berekeningen drastisch verminderd, omdat:
+
+1. De macht van x niet expliciet wordt berekend; in plaats daarvan wordt x telkens opnieuw gebruikt in een iteratief proces.
+2. Voor een polynoom van graad n worden precies n vermenigvuldigingen en n optellingen uitgevoerd.
+
+De totale tijdscomplexiteit is $O(n)$, omdat elke stap slechts één vermenigvuldiging en één optelling bevat.
+
+### Efficiëntie
+
+Bij de evaluatie van de polynoom is Horner's regel aanzienlijk efficiënter dan de klassieke vorm, omdat:
+
+1. Minder vermenigvuldigingen: De klassieke methode vereist exponentiële berekeningen (zoals $x^n$), terwijl Horner's regel alleen lineaire vermenigvuldigingen gebruikt.
+2. Lagere atomische tijd: Omdat vermenigvuldigingen meer tijd kosten dan optellingen, minimaliseert Horner's regel ook het aantal dure vermenigvuldigingen.
+
+### Conclusie
+
+De snelste schrijfwijze voor de evaluatie van een polynoom is de herschreven vorm volgens de regel van Horner. De tijdscomplexiteit van Horner's regel is $O(n)$, terwijl de klassieke methode $O(n^2)$ is. Daarnaast vermindert Horner's regel ook de kosten door minder vermenigvuldigingen uit te voeren.
+
 ## Opdracht 8
 ### Spellen
 Schaken kan op het eerste oog makkelijk lijken maar meestal zit er een ingewikkeld vraagstuk achter waarbij veel vooruit gedacht moet worden.
