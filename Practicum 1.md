@@ -176,6 +176,23 @@ Tweede functie antwoord: 16
  ```
 
 ### d.
-De herhalingsfrequentie van de eerste methode is de waarde van n. 
 
-De herhalingsfrequentie van de tweede methode is 0 want deze wordt niet herhaald.
+Functie 1:
+- De lus loopt precies n keer.
+- Binnen de lus wordt een constante bewerking uitgevoerd: vermenigvuldiging, aftrekken en optelling.
+- Deze operaties kosten constante tijd O(1).
+
+Herhalingsfrequentie:
+De code binnen de lus herhaalt zich n keer.
+
+Complexiteit:
+De tijdcomplexiteit is O(n). 
+
+Functie 2:
+- Dit is slechts één vermenigvuldiging, wat een constante tijd kost.
+
+Herhalingsfrequentie:
+Er is geen herhaling; de bewerking wordt slechts één keer uitgevoerd.
+
+Complexiteit:
+De tijdcomplexiteit is O(1) (constante tijd).
