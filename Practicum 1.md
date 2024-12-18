@@ -176,3 +176,6 @@ Tweede functie antwoord: 16
  ```
 
 ### d.
+De herhalingsfrequentie van de eerste methode is de waarde van n. 
+
+De herhalingsfrequentie van de tweede methode is 0 want deze wordt niet herhaald.
