@@ -121,6 +121,15 @@ Dit vereist:
 - n optellingen om de termen samen te voegen.
 De totale tijdscomplexiteit wordt hierdoor $O(n^2)$, omdat de berekening van $x^i$ exponentiële vermenigvuldigingen vereist.
 
+### Horner's regel
+
+Met Horner's regel wordt het aantal berekeningen drastisch verminderd, omdat:
+
+1. De macht van x niet expliciet wordt berekend; in plaats daarvan wordt x telkens opnieuw gebruikt in een iteratief proces.
+2. Voor een polynoom van graad n worden precies n vermenigvuldigingen en n optellingen uitgevoerd.
+
+De totale tijdscomplexiteit is $O(n)$, omdat elke stap slechts één vermenigvuldiging en één optelling bevat.
+
 ## Opdracht 8
 ### Spellen
 Schaken kan op het eerste oog makkelijk lijken maar meestal zit er een ingewikkeld vraagstuk achter waarbij veel vooruit gedacht moet worden.
