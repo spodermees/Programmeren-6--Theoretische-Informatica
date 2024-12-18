@@ -130,6 +130,17 @@ Met Horner's regel wordt het aantal berekeningen drastisch verminderd, omdat:
 
 De totale tijdscomplexiteit is $O(n)$, omdat elke stap slechts één vermenigvuldiging en één optelling bevat.
 
+### Efficiëntie
+
+Bij de evaluatie van de polynoom is Horner's regel aanzienlijk efficiënter dan de klassieke vorm, omdat:
+
+1. Minder vermenigvuldigingen: De klassieke methode vereist exponentiële berekeningen (zoals $x^n$), terwijl Horner's regel alleen lineaire vermenigvuldigingen gebruikt.
+2. Lagere atomische tijd: Omdat vermenigvuldigingen meer tijd kosten dan optellingen, minimaliseert Horner's regel ook het aantal dure vermenigvuldigingen.
+
+### Conclusie
+
+De snelste schrijfwijze voor de evaluatie van een polynoom is de herschreven vorm volgens de regel van Horner. De tijdscomplexiteit van Horner's regel is $O(n)$, terwijl de klassieke methode $O(n^2)$ is. Daarnaast vermindert Horner's regel ook de kosten door minder vermenigvuldigingen uit te voeren.
+
 ## Opdracht 8
 ### Spellen
 Schaken kan op het eerste oog makkelijk lijken maar meestal zit er een ingewikkeld vraagstuk achter waarbij veel vooruit gedacht moet worden.
