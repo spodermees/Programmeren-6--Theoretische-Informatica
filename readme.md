@@ -1,6 +1,6 @@
 # Alle problemen
 
-## Tom z'n partytent verhaal
+## Tom zn partytent verhaal
 
 Tom heeft een feestje op 1 december er zijn alleen enkele complicaties voor dit feestje
 
@@ -12,6 +12,23 @@ Ik zeg "ma" ik zeg "dat gaat hem niet worden" ik zeg "je boekt maar een fucking 
 
 ### Eindstand
 Eindstand ik vraag tegen m'n ma en Koert "Hebben jullie een partytent?" "Ja we hebben een partytent." "IS die dicht aan de zijkant?" "Ja Tom hij is dicht aan de zijkant." IK HAAL DIE KANKER PARTYTENT OP. IK ZET DIE KANKER PARTYTENT UIT EN WAT IS DIE OPEN KANKER ZIJKANT
+
+## Jan Smit appgroep
+Er is een Jan Smit fan groepsapp op whatsapp, waarschijnlijk in Volendam. Alleen heeft Adela een nieuwe groep gemaakt. Franciska is het hier niet mee eens en laat dir op een vriendelijke manier weten aan Adela.
+
+## Voorstellen
+Hey Adela jij kent mij vast nog wel ik ben Franciska de vriendin van Mitchel. Ik heb van Mitchel gehoord dat jij een Jan Smit app aangemaakt heb en onze leden probeert af te pakken.
+
+## De eerlijke reactie
+
+Waar haal jij het gore tering lef vandaan tering tering tering wijf. Je laat gewoon iedereen met rust ze willen toch niet bij jou in de groep want wij hebben allemaal iedereen op de hoogte gebracht. Dat wij dat niemand wil bij jou in de groep iedereen die jij toevoegd van onze Jan Smit app ga je er gelijk weer uit gooien daar heb ik wel voor gezorgd. En Mitchel en Mark en de andere beheerders maar die ken je niet.
+
+## De vraag
+
+Waar haal jij het gore lef vandaan om onze vrienden af te pakken met he tyfus golera kop? Je mag van mij lekker de tyfus krijgen de tering en de golera. En je laat iedereen van mijn Jan Smit app gewoon met rust. Klaar, pasta weet je ik weet je altijd te vinden hoor dus pas maar op met je tering tyfus golera kop want ik weet je altijd wel te vinden als je hier mee doorgaat dan weet ik je op te zoeken ik weet je toch wel te vinden. Ik heb conecties genoeg dus pas maar op tering wijf.
+
+## Extra info
+Franciska is een jaartje of 40 en is een erg gepasioneerde Jan Smit fan.
 
 ## Zware jeugd
 Gino Pietermaai is een in een emotioneel interview aan het praten over zijn jeugd.
@@ -107,4 +124,3 @@ Nee dank-
 Uhhhhh nee hoor dankuwel.
 
 *Onverstaanbaar U mag doorijden*
-

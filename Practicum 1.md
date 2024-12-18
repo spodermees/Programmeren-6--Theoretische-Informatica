@@ -149,3 +149,89 @@ Schaken kan op het eerste oog makkelijk lijken maar meestal zit er een ingewikke
 
 ### Rubiks kubus
 Het husselen van een rubiks is makkelijk gedaan alleen het oplossen is lastiger en duurt langer.
+
+## Opdracht 9
+### a.
+
+```public class opdr9 {
+    public static void main(String[] args) {
+        calc(5);
+    }
+
+    public static int calc(int n){
+        int result = 0;
+
+        for(int i = 1; i<=n; i++){
+            result += 2*i - 1;
+        }
+        System.out.println(result);
+        return result;
+    }
+}
+
+```
+### b.
+
+```
+Voor n is 5 is resultaat: 25
+Voor n is 33 is resultaat: 1089
+Voor n is 7 is resultaat: 49
+Voor n is 8 is resultaat: 64
+Voor n is 13 is resultaat: 169
+Voor n is 4 is resultaat: 16
+```
+### c.
+
+```
+public static int korter(int n){
+        return n*n;
+    }
+ ```   
+
+ Resultaten:
+ ```
+Voor 5
+Eerste functie antwoord: 25
+Tweede functie antwoord: 25
+Voor 33
+Eerste functie antwoord: 1089
+Tweede functie antwoord: 1089
+
+Voor 7
+Eerste functie antwoord: 49
+Tweede functie antwoord: 49
+
+Voor 8
+Eerste functie antwoord: 64
+Tweede functie antwoord: 64
+
+Voor 13
+Eerste functie antwoord: 169
+Tweede functie antwoord: 169
+
+Voor 4
+Eerste functie antwoord: 16
+Tweede functie antwoord: 16
+ ```
+
+### d.
+
+Functie 1:
+- De lus loopt precies n keer.
+- Binnen de lus wordt een constante bewerking uitgevoerd: vermenigvuldiging, aftrekken en optelling.
+- Deze operaties kosten constante tijd O(1).
+
+Herhalingsfrequentie:
+De code binnen de lus herhaalt zich n keer.
+
+Complexiteit:
+De tijdcomplexiteit is O(n). 
+
+Functie 2:
+- Dit is slechts één vermenigvuldiging, wat een constante tijd kost.
+
+Herhalingsfrequentie:
+Er is geen herhaling; de bewerking wordt slechts één keer uitgevoerd.
+
+Complexiteit:
+De tijdcomplexiteit is O(1) (constante tijd).
