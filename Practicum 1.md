@@ -104,6 +104,23 @@ $$O(n\cdot n!)$$
 
 ## Opdracht 6
 
+## Opdracht 7
+
+### Klassieke schrijfwijze
+
+Voor deze evaluatie moeten:
+
+1. Alle machten van x worden berekend $(x^2, x^3, ..., x^n)$
+2. Vervolgens worden deze machten vermenigvuldigd met de bijbehorende coëfficiënten $a_i$
+3. Tot slot worden alle termen opgeteld.
+
+Dit vereist:
+
+- n vermenigvuldigingen voor $x^i$(waarbij exponentiële vermenigvuldigingen worden uitgevoerd).
+- n vermenigvuldigingen van de coëfficiënten met de resultaten van $x^i$.
+- n optellingen om de termen samen te voegen.
+De totale tijdscomplexiteit wordt hierdoor $O(n^2)$, omdat de berekening van $x^i$ exponentiële vermenigvuldigingen vereist.
+
 ## Opdracht 8
 ### Spellen
 Schaken kan op het eerste oog makkelijk lijken maar meestal zit er een ingewikkeld vraagstuk achter waarbij veel vooruit gedacht moet worden.
