@@ -56,7 +56,7 @@ Dit betekent:
 
 Dit resulteert in een exponentiële groei van het aantal berekeningen.
 
-De formule voor \( \text{alg a}(n) \) is:
+De formule voor $ \text{alg a}(n) \$ is:
 
 $\text{alg a}(n) = 2 \cdot \text{alg a}(n-1), \quad \text{met } \text{alg a}(1) = 1.$
 
@@ -79,7 +79,7 @@ $\text{alg a}(1, 2, 3, 4, 5) = 1, 4, 8, 16, 32$
 ---
 
 ### Tijdcomplexiteit
-De tijdscomplexiteit van \( \text{alg a}(n) \) wordt bepaald door het feit dat het algoritme zichzelf tweemaal aanroept voor elk niveau van de recursie. Dit leidt tot een exponentiële groei van het aantal aanroepen. 
+De tijdscomplexiteit van $ \text{alg a}(n) \$ wordt bepaald door het feit dat het algoritme zichzelf tweemaal aanroept voor elk niveau van de recursie. Dit leidt tot een exponentiële groei van het aantal aanroepen. 
 
 De recursievergelijking voor de complexiteit is:
 
@@ -108,7 +108,7 @@ Dit betekent:
 - Als \( n = 1 \), geeft het algoritme \( 1 \) terug.
 - Als \( n > 1 \), vermenigvuldigt het algoritme het resultaat van $ \text{alg b}(n-1) \$ met \( 2 \).
 
-De formule voor \( \text{alg b}(n) \) is:
+De formule voor $ \text{alg b}(n) \$ is:
 
 $\text{alg b}(n) = 2 \cdot \text{alg b}(n-1), \quad \text{met } \text{alg b}(1) = 1.$
 
@@ -116,7 +116,7 @@ $\text{alg b}(n) = 2 \cdot \text{alg b}(n-1), \quad \text{met } \text{alg b}(1) 
 ---
 
 ### Berekeningen
-Laten we \( \text{alg b}(n) \) berekenen voor \( n = 1, 2, 3, 4, 5 \).
+Laten we $ \text{alg b}(n) \$ berekenen voor \( n = 1, 2, 3, 4, 5 \).
 
 1. $ \text{alg b}(1) = 1 \$
 2. $ \text{alg b}(2) = 2 \cdot \text{alg b}(1) = 2 \$
