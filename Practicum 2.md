@@ -15,3 +15,7 @@ $$a_n = a_{n-1} + (n-1)$$,
 
 met de basisvoorwaarde:
 $$a_2 = 1, \quad \text{omdat er tussen 2 punten slechts 1 verbindingslijntje is.}$$
+
+## Opdracht 2
+
+## Opdracht 3
