@@ -37,3 +37,82 @@ Teruggave: Aan het einde van de lus bevat resultaat de faculteit van n.
 Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve oproepen, wat het efficiënter maakt voor grote waarden van n.
 
 ## Opdracht 3
+
+## Opdracht 5
+
+\section*{Analyse van het probleem}
+De opgave vraagt om:
+\begin{enumerate}
+    \item Een recursieve relatie voor de vermenigvuldiging van twee \( n \)-bit getallen \( x \) en \( y \).
+    \item Een recursief algoritme voor deze vermenigvuldiging.
+    \item De tijdcomplexiteit van dit algoritme.
+\end{enumerate}
+
+\subsection*{Recursieve relatie}
+Bij de vermenigvuldiging van twee \( n \)-bit getallen, splitsen we de getallen \( x \) en \( y \) elk op in twee helften:
+\[
+x = x_L \cdot 2^{n/2} + x_R, \quad y = y_L \cdot 2^{n/2} + y_R,
+\]
+waar \( x_L \) en \( x_R \) respectievelijk de bovenste en onderste \( n/2 \) bits van \( x \) zijn. Hetzelfde geldt voor \( y_L \) en \( y_R \).
+
+De vermenigvuldiging \( x \cdot y \) kan dan worden uitgedrukt als:
+\[
+x \cdot y = (x_L \cdot 2^{n/2} + x_R) \cdot (y_L \cdot 2^{n/2} + y_R),
+\]
+wat uitbreidt naar:
+\[
+x \cdot y = (x_L \cdot y_L) \cdot 2^n + ((x_L \cdot y_R) + (x_R \cdot y_L)) \cdot 2^{n/2} + (x_R \cdot y_R).
+\]
+
+Dit vereist vier vermenigvuldigingen:
+\begin{enumerate}
+    \item \( x_L \cdot y_L \),
+    \item \( x_L \cdot y_R \),
+    \item \( x_R \cdot y_L \),
+    \item \( x_R \cdot y_R \).
+\end{enumerate}
+
+Daarnaast zijn er schuifoperaties (\( 2^n \) en \( 2^{n/2} \)) en optellingen, die elk een lagere complexiteit hebben.
+
+De recursieve relatie is dus:
+\[
+T(n) = 4 \cdot T(n/2) + O(n),
+\]
+waar \( O(n) \) de kosten van optellen en schuiven vertegenwoordigt.
+
+\subsection*{Recursief algoritme}
+Hier is een recursief algoritme in pseudocode:
+
+\begin{verbatim}
+function multiply(x, y, n):
+    if n == 1:
+        return x * y  # Basisgeval: vermenigvuldig 1-bit getallen
+    
+    // Splits x en y in bovenste en onderste helft
+    x_L, x_R = split(x, n/2)
+    y_L, y_R = split(y, n/2)
+    
+    // Recursieve vermenigvuldigingen
+    P1 = multiply(x_L, y_L, n/2)
+    P2 = multiply(x_L, y_R, n/2)
+    P3 = multiply(x_R, y_L, n/2)
+    P4 = multiply(x_R, y_R, n/2)
+    
+    // Combineer resultaten
+    return P1 * 2^n + (P2 + P3) * 2^(n/2) + P4
+\end{verbatim}
+
+\subsection*{Tijdcomplexiteit}
+De recursieve relatie \( T(n) = 4 \cdot T(n/2) + O(n) \) kan worden opgelost met de \textit{Master Theorem}:
+\begin{itemize}
+    \item \( a = 4 \) (aantal recursieve oproepen),
+    \item \( b = 2 \) (factor waarmee het probleem wordt verkleind),
+    \item \( f(n) = O(n) \) (toevoegende complexiteit).
+\end{itemize}
+
+Volgens de Master Theorem is de oplossing van \( T(n) \):
+\[
+T(n) = O(n^{\log_2 4}) = O(n^2).
+\]
+
+Dus de tijdcomplexiteit van dit algoritme is \textbf{O(n²)}.
