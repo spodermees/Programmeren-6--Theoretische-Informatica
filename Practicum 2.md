@@ -41,7 +41,7 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 ## Opdracht 4
 
-## Algoritme 1:  $text{alg a}(n)$
+## Algoritme 1:  $\text{alg a}(n)\$
 
 ```plaintext
 1. alg_a(n):resultaat
@@ -58,7 +58,7 @@ Dit resulteert in een exponentiële groei van het aantal berekeningen.
 
 De formule voor $ \text{alg a}(n) \$ is:
 
-$\text{alg a}(n) = 2 \cdot \text{alg a}(n-1), \quad \text{met } \text{alg a}(1) = 1.$
+$\text{alg a}(n) = 2 \cdot \text{alg a}(n-1), \quad \text{met } \text{alg a}(1) = 1.\$
 
 
 ---
