@@ -124,3 +124,28 @@ Nee dank-
 Uhhhhh nee hoor dankuwel.
 
 *Onverstaanbaar U mag doorijden*
+
+## Kai zijn hotel kamer
+Ik ben met Kai op winter sport. We hebben net ietjes verkeerd hotel geboekt en ik ga nu aan Kai vertellen dat we niet ons geld terug krijgen en er geen andere kamers zijn.
+
+"Kai"\
+"Yo"\
+"Euhh, we krijgen ons geld niet terug"\
+"Ja hoor meen je dat nou??"\
+"En er zijn ook geen andere kamers"\
+"220 euro hebben we hiervoor betaalt"\
+"Ja"\
+"Op gekankert hoor"\
+"Wat gaan we doen dan?"\
+"Ik sloop die hele kanker kamer"\
+"Ja dag dat doe je echt niet"\
+(Gooit tv)
+
+"Kanker zooi, hoeren kut kanker zooi"\
+(Trapt badkamer naar de kanker)
+
+"Kanker kut hotellllll!!!!!"\
+(Sloopt badkamer veder)\
+(Gaat veder met slaapkamer)\
+"Focking kanker kut"\
+"KANKER HOTEL!!!!"
