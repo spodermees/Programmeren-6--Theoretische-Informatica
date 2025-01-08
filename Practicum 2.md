@@ -18,4 +18,19 @@ $$a_2 = 1, \quad \text{omdat er tussen 2 punten slechts 1 verbindingslijntje is.
 
 ## Opdracht 2
 
+```
+int faculteit(int n) {
+    int resultaat = 1; // Startwaarde
+    for (int i = 1; i <= n; i++) {
+        resultaat *= i; // Vermenigvuldig met het huidige getal
+    }
+    return resultaat;
+}
+```
+### Uitleg
+Startwaarde: De variabele resultaat begint bij 1, aangezien de faculteit van 0 (en de basis van vermenigvuldiging) gelijk is aan 1.
+Lus: Een for-lus wordt gebruikt om door alle getallen van 1 tot n te itereren. Elk getal wordt vermenigvuldigd met resultaat.
+Teruggave: Aan het einde van de lus bevat resultaat de faculteit van n.
+Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve oproepen, wat het efficiënter maakt voor grote waarden van n.
+
 ## Opdracht 3
