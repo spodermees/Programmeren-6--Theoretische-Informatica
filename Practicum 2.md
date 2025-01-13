@@ -103,3 +103,113 @@ Volgens de Master Theorem is de oplossing van T(n):
 $$T(n) = O(n^{\log_2 4}) = O(n^2)$$.
 
 Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
+
+## Opdracht 6
+
+## Recursieve benadering voor $\(x^p)\$
+
+### Algoritme
+
+1. **Basisgeval**:
+   - Als $\(p = 0\): \(x^p = 1\) (want elke macht met exponent 0 is 1).\$
+   - Als $\(p = 1\): \(x^p = x\) (want \(x^1 = x\)).\$
+
+2. **Recursieve stap**:
+   - Voor een even exponent $\((p))\$:
+     
+     $\x^p = (x^{p/2})^2\$
+     
+   - Voor een oneven exponent $\((p))\$:
+     
+     $\x^p = x \cdot x^{p-1}\$
+
+3. **Tijdcomplexiteit**:
+   - Bij elke recursieve stap wordt $\(p)\$ gehalveerd of verminderd met 1. Hierdoor is de diepte van de recursieboom $\(O(\log p))\$.
+   - Elke stap voert een constante hoeveelheid werk uit $\((O(1)))\$.
+   - De totale tijdcomplexiteit is:
+     $\O(\log p)\$
+
+---
+
+## Pseudocode
+
+```plaintext
+RecPow(x, p):
+    if p == 0:                          # Basisgeval 1: macht is 0
+        return 1
+    if p == 1:                          # Basisgeval 2: macht is 1
+        return x
+    if p is even:                       # Controleer of p even is
+        half = RecPow(x, p / 2)         # Bereken de macht van x^(p/2) recursief
+        return half * half              # Combineer de resultaten
+    else:                               # Als p oneven is
+        return x * RecPow(x, p - 1)     # Verminder de macht met 1 en vermenigvuldig met x
+```
+
+---
+
+## Implementatie in C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// Recursieve functie om x^p te berekenen
+double recPow(double x, int p) {
+    // Basisgevallen
+    if (p == 0) {
+        return 1; // Elke macht met exponent 0 is 1
+    }
+    if (p == 1) {
+        return x; // x^1 = x
+    }
+
+    // Als p even is
+    if (p % 2 == 0) {
+        double half = recPow(x, p / 2); // Recursieve oproep voor x^(p/2)
+        return half * half;            // Combineer de resultaten
+    } else {
+        // Als p oneven is
+        return x * recPow(x, p - 1); // Verminder de exponent met 1 en vermenigvuldig met x
+    }
+}
+
+int main() {
+    // Test de functie
+    cout << "2^10 = " << recPow(2, 10) << endl; // Verwacht: 1024
+    cout << "5^3 = " << recPow(5, 3) << endl;   // Verwacht: 125
+    cout << "7^0 = " << recPow(7, 0) << endl;   // Verwacht: 1
+    cout << "3^4 = " << recPow(3, 4) << endl;   // Verwacht: 81
+
+    return 0;
+}
+```
+
+---
+
+## Output
+
+Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
+
+```
+2^10 = 1024
+5^3 = 125
+7^0 = 1
+3^4 = 81
+```
+
+---
+
+## Tijdcomplexiteitsanalyse
+
+1. **Halvering bij even $\(p)\$**:
+   - Als $\(p)\$ even is, wordt de macht telkens door 2 gedeeld, wat de diepte van de recursie beperkt tot $\(O(\log p))\$.
+
+2. **Constante bewerkingen**:
+   - Elke stap kost $\(O(1))\$ voor het uitvoeren van één vermenigvuldiging.
+
+3. **Totale tijdcomplexiteit**:
+   
+   $\O(\log p)\$
+
+---
