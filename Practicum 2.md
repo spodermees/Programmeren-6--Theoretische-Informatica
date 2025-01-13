@@ -38,9 +38,15 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 ## Opdracht 3
 
+Voor elke verplaatsing van een grotere schijf naar de volgende toren zijn 3 verplaatsingen nodig, behalve bij de laatste.  
+Dit geeft een verband van $3^n - 1$
+1 disk = 2 
+2 disk = 8
+3 disk = 26
+		
 ## Opdracht 4
 
-## Algoritme 1:  $\text{alg a}(n)\$
+### Algoritme 1:  $\text{alg a}(n)\$
 
 ```plaintext
 1. alg_a(n):resultaat
@@ -88,13 +94,13 @@ Oplossing:
 
 $T(n) = O(2^n).$
 
-## Conclusie: 
+Conclusie:
 
 De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
 
 ---
 
-## Algoritme 2: $\text{alg b}(n)\$
+### Algoritme 2: $\text{alg b}(n)\$
 
 ```plaintext
 1. alg_b(n):resultaat
@@ -142,11 +148,10 @@ Oplossing:
 
 $T(n) = O(n).$
 
-## Conclusie: 
+### Conclusie: 
 De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
 
 ---
-
 
 ## Opdracht 5
 
@@ -241,7 +246,7 @@ Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
 
 ---
 
-## Pseudocode
+### Pseudocode
 
 ```plaintext
 RecPow(x, p):
@@ -258,7 +263,7 @@ RecPow(x, p):
 
 ---
 
-## Implementatie in C++
+### Implementatie in C++
 
 ```cpp
 #include <iostream>
@@ -310,7 +315,7 @@ int main() {
 
 ---
 
-## Output
+### Output
 
 Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
@@ -323,7 +328,7 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
 ---
 
-## Tijdcomplexiteitsanalyse
+### Tijdcomplexiteitsanalyse
 
 1. **Halvering bij even $\(p)\$**:
    - Als $\(p)\$ even is, wordt de macht telkens door 2 gedeeld, wat de diepte van de recursie beperkt tot $\(O(\log p))\$.
@@ -334,3 +339,54 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 3. **Totale tijdcomplexiteit**:
    
    $O(\log p)$
+
+## Opdracht 7
+
+## Opdracht 8
+
+### Stap 1: Start met Ack(2,3)
+Ack(2,3)=Ack(1,Ack(2,2)).
+### Stap 2: Bereken Ack(2,2)
+Ack(2,2)=Ack(1,Ack(2,1)).
+#### Stap 2.1: Bereken Ack(2,1)
+Ack(2,1)=Ack(1,Ack(2,0)).
+##### Stap 2.1.1: Bereken Ack(2,0)
+Ack(2,0)=Ack(1,1).
+##### Stap 2.1.2: Bereken Ack(1,1)
+Ack(1,1)=Ack(0,Ack(1,0)).
+
+Ack(1,0)=Ack(0,1).
+
+Ack(0,1)=1+1=2.
+
+Dus:
+
+Ack(1,0)=2, Ack(1,1)=Ack(0,2)=2+1=3.
+#### Resultaat Stap 2.1:
+Ack(2,0)=Ack(1,1)=3.
+
+Ack(2,1)=Ack(1,Ack(2,0))=Ack(1,3).
+#### Stap 2.2: Bereken Ack(1,3)
+Ack(1,3)=Ack(0,Ack(1,2)).
+
+Ack(1,2)=Ack(0,Ack(1,1))=Ack(0,3)=3+1=4.
+
+Ack(1,3)=Ack(0,4)=4+1=5.
+
+Dus:
+
+Ack(2,1)=5.
+#### Stap 2.3: Bereken Ack(2,2)
+Ack(2,2)=Ack(1,Ack(2,1))=Ack(1,5).
+
+Ack(1,5)=Ack(0,Ack(1,4))=Ack(0,6)=6+1=7.
+
+Dus:
+
+Ack(2,2)=7.
+### Stap 3: Bereken Ack(2,3)
+Ack(2,3)=Ack(1,Ack(2,2))=Ack(1,7).
+
+Ack(1,7)=Ack(0,Ack(1,6))=Ack(0,8)=8+1=9.
+### Conclusie
+Ack(2,3)=9.
