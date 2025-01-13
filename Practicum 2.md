@@ -152,7 +152,7 @@ Oplossing:
 $T(n) = O(n).$
 
 ### Conclusie: 
-De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
+De tijdscomplexiteit van $\text{alg b}(n)\$ is $\O(n)\$.
 
 ---
 
