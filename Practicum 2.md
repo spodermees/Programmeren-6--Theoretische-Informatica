@@ -99,7 +99,7 @@ $T(n) = O(2^n).$
 
 Conclusie:
 
-De tijdscomplexiteit van $\text{alg a}(n) \text{is } ( O(2^n)\$.
+De tijdscomplexiteit van $\text{alg a}(n) \text{ is } ( O(2^n)\$.
 
 ---
 
@@ -152,7 +152,7 @@ Oplossing:
 $T(n) = O(n).$
 
 ### Conclusie: 
-De tijdscomplexiteit van $\text{alg b}(n) \text{is } O(n)\$.
+De tijdscomplexiteit van $\text{alg b}(n) \text{ is } O(n)\$.
 
 ---
 
