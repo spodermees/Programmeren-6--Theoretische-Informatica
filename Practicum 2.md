@@ -56,12 +56,10 @@ wat uitbreidt naar:
 $$x \cdot y = (x_L \cdot y_L) \cdot 2^n + ((x_L \cdot y_R) + (x_R \cdot y_L)) \cdot 2^{n/2} + (x_R \cdot y_R)$$.
 
 Dit vereist vier vermenigvuldigingen:
-$$
-1. x_L \cdot y_L,
-2. x_L \cdot y_R,
-3. x_R \cdot y_L,
-4. x_R \cdot y_R.
-$$
+1. $x_L \cdot y_L$,
+2. $x_L \cdot y_R$,
+3. $x_R \cdot y_L$,
+4. $x_R \cdot y_R$.
 
 Daarnaast zijn er schuifoperaties $(2^n$ en $2^{n/2})$ en optellingen, die elk een lagere complexiteit hebben.
 
