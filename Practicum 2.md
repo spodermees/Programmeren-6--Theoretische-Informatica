@@ -274,16 +274,16 @@ double recPow(double x, int p) {
         return x; // x^1 = x
     }
     if (x == 0 && p < 0) {
-        throw std::invalid_argument("Undefined: 0 raised to a negative power");
+        throw std::invalid_argument("Niet bekend: 0 tot de macht van een negatief getal");
     }
     if (x == 0 && p == 0) {
-        throw std::invalid_argument("Undefined: 0 raised to the power of 0");
+        throw std::invalid_argument("Niet bekend: 0 tot de macht van 0 niet bekend");
     }
     if (x == 0 && p > 0) {
-        return 0; // 0 raised to any positive power is 0
+        return 0; // Als het 0 tot de macht van 0 is
     }
     if (p < 0) {
-        return 1 / recPow(x, -p); // Handle negative exponents
+        return 1 / recPow(x, -p); // In het geval van negatieve getallen
     }
 
 
