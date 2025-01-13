@@ -40,7 +40,7 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 ## Opdracht 4
 
-## Algoritme 1:  $\text{alg a}(n)\$
+### Algoritme 1:  $\text{alg a}(n)\$
 
 ```plaintext
 1. alg_a(n):resultaat
@@ -88,13 +88,13 @@ Oplossing:
 
 $T(n) = O(2^n).$
 
-##Conclusie: 
+Conclusie: 
 
 De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
 
 ---
 
-## Algoritme 2: $\text{alg b}(n)\$
+### Algoritme 2: $\text{alg b}(n)\$
 
 ```plaintext
 1. alg_b(n):resultaat
@@ -142,7 +142,7 @@ Oplossing:
 
 $T(n) = O(n).$
 
-## Conclusie: 
+### Conclusie: 
 De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
 
 ---
@@ -241,7 +241,7 @@ Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
 
 ---
 
-## Pseudocode
+### Pseudocode
 
 ```plaintext
 RecPow(x, p):
@@ -258,7 +258,7 @@ RecPow(x, p):
 
 ---
 
-## Implementatie in C++
+### Implementatie in C++
 
 ```cpp
 #include <iostream>
@@ -297,7 +297,7 @@ int main() {
 
 ---
 
-## Output
+### Output
 
 Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
@@ -310,7 +310,7 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
 ---
 
-## Tijdcomplexiteitsanalyse
+### Tijdcomplexiteitsanalyse
 
 1. **Halvering bij even $\(p)\$**:
    - Als $\(p)\$ even is, wordt de macht telkens door 2 gedeeld, wat de diepte van de recursie beperkt tot $\(O(\log p))\$.
@@ -321,3 +321,5 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 3. **Totale tijdcomplexiteit**:
    
    $O(\log p)$
+
+## Opdracht 7
