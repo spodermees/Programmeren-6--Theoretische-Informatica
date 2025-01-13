@@ -88,7 +88,7 @@ Oplossing:
 
 $T(n) = O(2^n).$
 
-##Conclusie: 
+## Conclusie: 
 
 De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
 
@@ -148,7 +148,6 @@ De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
 ---
 
 
-=======
 ## Opdracht 5
 
 ### Recursieve relatie
