@@ -336,26 +336,39 @@ Ack(2,1)=Ack(1,Ack(2,0)).
 Ack(2,0)=Ack(1,1).
 ##### Stap 2.1.2: Bereken Ack(1,1)
 Ack(1,1)=Ack(0,Ack(1,0)).
+
 Ack(1,0)=Ack(0,1).
+
 Ack(0,1)=1+1=2.
+
 Dus:
+
 Ack(1,0)=2,Ack(1,1)=Ack(0,2)=2+1=3.
 #### Resultaat Stap 2.1:
 Ack(2,0)=Ack(1,1)=3.
+
 Ack(2,1)=Ack(1,Ack(2,0))=Ack(1,3).
 #### Stap 2.2: Bereken Ack(1,3)
 Ack(1,3)=Ack(0,Ack(1,2)).
+
 Ack(1,2)=Ack(0,Ack(1,1))=Ack(0,3)=3+1=4.
+
 Ack(1,3)=Ack(0,4)=4+1=5.
+
 Dus:
+
 Ack(2,1)=5.
 #### Stap 2.3: Bereken Ack(2,2)
 Ack(2,2)=Ack(1,Ack(2,1))=Ack(1,5).
+
 Ack(1,5)=Ack(0,Ack(1,4))=Ack(0,6)=6+1=7.
+
 Dus:
+
 Ack(2,2)=7.
 ### Stap 3: Bereken Ack(2,3)
 Ack(2,3)=Ack(1,Ack(2,2))=Ack(1,7).
+
 Ack(1,7)=Ack(0,Ack(1,6))=Ack(0,8)=8+1=9.
 ### Conclusie
 Ack(2,3)=9.
