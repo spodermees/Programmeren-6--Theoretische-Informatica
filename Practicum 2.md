@@ -38,7 +38,6 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 ## Opdracht 3
 
-
 ## Opdracht 4
 
 ## Algoritme 1:  $\text{alg a}(n)\$
@@ -143,9 +142,183 @@ Oplossing:
 
 $T(n) = O(n).$
 
-##Conclusie: 
+## Conclusie: 
 De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
 
 ---
 
 
+=======
+## Opdracht 5
+
+### Recursieve relatie
+Bij de vermenigvuldiging van twee n-bit getallen, splitsen we de getallen x en y elk op in twee helften:
+
+$$x = x_L \cdot 2^{n/2} + x_R, \quad y = y_L \cdot 2^{n/2} + y_R$$,
+
+waar x_L en x_R respectievelijk de bovenste en onderste n/2 bits van x zijn. Hetzelfde geldt voor y_L en y_R.
+
+De vermenigvuldiging $x \cdot y$ kan dan worden uitgedrukt als:
+
+$$x \cdot y = (x_L \cdot 2^{n/2} + x_R) \cdot (y_L \cdot 2^{n/2} + y_R)$$,
+
+wat uitbreidt naar:
+
+$$x \cdot y = (x_L \cdot y_L) \cdot 2^n + ((x_L \cdot y_R) + (x_R \cdot y_L)) \cdot 2^{n/2} + (x_R \cdot y_R)$$.
+
+Dit vereist vier vermenigvuldigingen:
+1. $x_L \cdot y_L$,
+2. $x_L \cdot y_R$,
+3. $x_R \cdot y_L$,
+4. $x_R \cdot y_R$.
+
+Daarnaast zijn er schuifoperaties $(2^n$ en $2^{n/2})$ en optellingen, die elk een lagere complexiteit hebben.
+
+De recursieve relatie is dus:
+
+$$T(n) = 4 \cdot T(n/2) + O(n)$$,
+
+waar O(n) de kosten van optellen en schuiven vertegenwoordigt.
+
+### Recursief algoritme
+Hier is een recursief algoritme in pseudocode:
+
+```
+function multiply(x, y, n):
+    if n == 1:
+        return x * y  # Basisgeval: vermenigvuldig 1-bit getallen
+    
+    // Splits x en y in bovenste en onderste helft
+    x_L, x_R = split(x, n/2)
+    y_L, y_R = split(y, n/2)
+    
+    // Recursieve vermenigvuldigingen
+    P1 = multiply(x_L, y_L, n/2)
+    P2 = multiply(x_L, y_R, n/2)
+    P3 = multiply(x_R, y_L, n/2)
+    P4 = multiply(x_R, y_R, n/2)
+    
+    // Combineer resultaten
+    return P1 * 2^n + (P2 + P3) * 2^(n/2) + P4
+```
+
+### Tijdcomplexiteit
+De recursieve relatie $T(n) = 4 \cdot T(n/2) + O(n)$ kan worden opgelost met de Master Theorem:
+- a = 4 (aantal recursieve oproepen),
+- b = 2 (factor waarmee het probleem wordt verkleind),
+- f(n) = O(n) (toevoegende complexiteit).
+
+
+Volgens de Master Theorem is de oplossing van T(n):
+
+$$T(n) = O(n^{\log_2 4}) = O(n^2)$$.
+
+Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
+
+## Opdracht 6
+
+## Recursieve benadering voor $\(x^p)\$
+
+### Algoritme
+
+1. **Basisgeval**:
+   - Als $\(p = 0\): \(x^p = 1\)\$ (want elke macht met exponent 0 is 1).
+   - Als $\(p = 1\): \(x^p = x\) (want \(x^1 = x\)).\$
+
+2. **Recursieve stap**:
+   - Voor een even exponent $\((p))\$:
+     
+     $x^p = (x^{p/2})^2$
+     
+   - Voor een oneven exponent $\((p))\$:
+     
+     $x^p = x \cdot x^{p-1}$
+
+3. **Tijdcomplexiteit**:
+   - Bij elke recursieve stap wordt $\(p)\$ gehalveerd of verminderd met 1. Hierdoor is de diepte van de recursieboom $\(O(\log p))\$.
+   - Elke stap voert een constante hoeveelheid werk uit $\((O(1)))\$.
+   - De totale tijdcomplexiteit is:
+     $O(\log p)$
+
+---
+
+## Pseudocode
+
+```plaintext
+RecPow(x, p):
+    if p == 0:                          # Basisgeval 1: macht is 0
+        return 1
+    if p == 1:                          # Basisgeval 2: macht is 1
+        return x
+    if p is even:                       # Controleer of p even is
+        half = RecPow(x, p / 2)         # Bereken de macht van x^(p/2) recursief
+        return half * half              # Combineer de resultaten
+    else:                               # Als p oneven is
+        return x * RecPow(x, p - 1)     # Verminder de macht met 1 en vermenigvuldig met x
+```
+
+---
+
+## Implementatie in C++
+
+```cpp
+#include <iostream>
+using namespace std;
+
+// Recursieve functie om x^p te berekenen
+double recPow(double x, int p) {
+    // Basisgevallen
+    if (p == 0) {
+        return 1; // Elke macht met exponent 0 is 1
+    }
+    if (p == 1) {
+        return x; // x^1 = x
+    }
+
+    // Als p even is
+    if (p % 2 == 0) {
+        double half = recPow(x, p / 2); // Recursieve oproep voor x^(p/2)
+        return half * half;            // Combineer de resultaten
+    } else {
+        // Als p oneven is
+        return x * recPow(x, p - 1); // Verminder de exponent met 1 en vermenigvuldig met x
+    }
+}
+
+int main() {
+    // Test de functie
+    cout << "2^10 = " << recPow(2, 10) << endl; // Verwacht: 1024
+    cout << "5^3 = " << recPow(5, 3) << endl;   // Verwacht: 125
+    cout << "7^0 = " << recPow(7, 0) << endl;   // Verwacht: 1
+    cout << "3^4 = " << recPow(3, 4) << endl;   // Verwacht: 81
+
+    return 0;
+}
+```
+
+---
+
+## Output
+
+Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
+
+```
+2^10 = 1024
+5^3 = 125
+7^0 = 1
+3^4 = 81
+```
+
+---
+
+## Tijdcomplexiteitsanalyse
+
+1. **Halvering bij even $\(p)\$**:
+   - Als $\(p)\$ even is, wordt de macht telkens door 2 gedeeld, wat de diepte van de recursie beperkt tot $\(O(\log p))\$.
+
+2. **Constante bewerkingen**:
+   - Elke stap kost $\(O(1))\$ voor het uitvoeren van één vermenigvuldiging.
+
+3. **Totale tijdcomplexiteit**:
+   
+   $O(\log p)$
