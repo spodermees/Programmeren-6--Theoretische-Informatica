@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Opdr7 {
+public class Opdr7 {
+    
 }
