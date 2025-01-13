@@ -38,12 +38,121 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 ## Opdracht 3
 
-	Voor elke verplaatsing van een grotere schijf naar de volgende toren zijn 3 verplaatsingen nodig, behalve bij de laatste.  
-	Dit geeft een verband van 3^n - 1 
-	1 disk = 2 
-	2 disk = 8
-	3 disk = 26
+Voor elke verplaatsing van een grotere schijf naar de volgende toren zijn 3 verplaatsingen nodig, behalve bij de laatste.  
+Dit geeft een verband van $3^n - 1$
+1 disk = 2 
+2 disk = 8
+3 disk = 26
 		
+## Opdracht 4
+
+### Algoritme 1:  $\text{alg a}(n)\$
+
+```plaintext
+1. alg_a(n):resultaat
+2. if n > 1 then
+3.     return(alg_a(n - 1) + alg_a(n - 1))
+4. else return(1)
+```
+
+Dit betekent:
+- Als \( n = 1 \), geeft het algoritme \( 1 \) terug.
+- Als \( n > 1 \), roept het algoritme zichzelf **tweemaal** aan met \( n-1 \) en telt de resultaten op. 
+
+Dit resulteert in een exponentiële groei van het aantal berekeningen.
+
+De formule voor $\text{alg a}(n)\$ is:
+
+$\text{alg a}(n) = 2 \cdot \text{alg a}(n-1), \quad \text{met } \text{alg a}(1) = 1.\$
+
+
+---
+
+### Berekeningen
+Laten we  $\text{alg a}(n)\$ berekenen voor  n = 1, 2, 3, 4, 5.
+
+1. $\text{alg a}(1) = 1 \$
+2. $\text{alg a}(2) = 2 \cdot \text{alg a}(1) + 2 \cdot \text{alg a}(1) = 2 + 2 = 4 \$
+3. $\text{alg a}(3) = 2 \cdot \text{alg a}(2) + 2 \cdot \text{alg a}(2) = 4 + 4 = 8 \$
+4. $\text{alg a}(4) = 2 \cdot \text{alg a}(3) + 2 \cdot \text{alg a}(3) = 8 + 8 = 16 \$
+5. $\text{alg a}(5) = 2 \cdot \text{alg a}(4) + 2 \cdot \text{alg a}(4) = 16 + 16 = 32 \$
+
+**Resultaat:**  
+$\text{alg a}(1, 2, 3, 4, 5) = 1, 4, 8, 16, 32\$
+
+
+---
+
+### Tijdcomplexiteit
+De tijdscomplexiteit van $\text{alg a}(n)\$ wordt bepaald door het feit dat het algoritme zichzelf tweemaal aanroept voor elk niveau van de recursie. Dit leidt tot een exponentiële groei van het aantal aanroepen. 
+
+De recursievergelijking voor de complexiteit is:
+
+$T(n) = 2 \cdot T(n-1).$
+
+Oplossing:
+
+$T(n) = O(2^n).$
+
+Conclusie: 
+
+De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
+
+---
+
+### Algoritme 2: $\text{alg b}(n)\$
+
+```plaintext
+1. alg_b(n):resultaat
+2. if n > 1 then
+3.     return(2 \cdot alg_b(n - 1))
+4. else return(1)
+```
+
+Dit betekent:
+- Als ( n = 1 ), geeft het algoritme ( 1 ) terug.
+- Als ( n > 1 ), vermenigvuldigt het algoritme het resultaat van $\text{alg b}(n-1) \$ met \( 2 \).\$
+
+De formule voor $\text{alg b}(n)\$ is:
+
+$\text{alg b}(n) = 2 \cdot \text{alg b}(n-1), \quad \text{met } \text{alg b}(1) = 1.\$
+
+
+---
+
+### Berekeningen
+Laten we $\text{alg b}(n) \$ berekenen voor \( n = 1, 2, 3, 4, 5 \).\$
+
+1. $\text{alg b}(1) = 1 \$
+2. $\text{alg b}(2) = 2 \cdot \text{alg b}(1) = 2 \$
+3. $\text{alg b}(3) = 2 \cdot \text{alg b}(2) = 4 \$
+4. $\text{alg b}(4) = 2 \cdot \text{alg b}(3) = 8 \$
+5. $\text{alg b}(5) = 2 \cdot \text{alg b}(4) = 16 \$
+
+**Resultaat:**  
+
+$\text{alg b}(1, 2, 3, 4, 5) = 1, 2, 4, 8, 16\$
+
+
+---
+
+### Tijdcomplexiteit
+De tijdscomplexiteit van $\text{alg b}(n)\$ wordt bepaald door het feit dat het algoritme zichzelf slechts **éénmaal** aanroept per niveau van de recursie. Dit leidt tot een lineaire groei van het aantal aanroepen.
+
+De recursievergelijking voor de complexiteit is:
+
+$T(n) = T(n-1) + O(1).$
+
+
+Oplossing:
+
+$T(n) = O(n).$
+
+### Conclusie: 
+De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
+
+---
+
 ## Opdracht 5
 
 ### Recursieve relatie
@@ -137,7 +246,7 @@ Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
 
 ---
 
-## Pseudocode
+### Pseudocode
 
 ```plaintext
 RecPow(x, p):
@@ -154,7 +263,7 @@ RecPow(x, p):
 
 ---
 
-## Implementatie in C++
+### Implementatie in C++
 
 ```cpp
 #include <iostream>
@@ -193,7 +302,7 @@ int main() {
 
 ---
 
-## Output
+### Output
 
 Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
@@ -206,7 +315,7 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
 ---
 
-## Tijdcomplexiteitsanalyse
+### Tijdcomplexiteitsanalyse
 
 1. **Halvering bij even $\(p)\$**:
    - Als $\(p)\$ even is, wordt de macht telkens door 2 gedeeld, wat de diepte van de recursie beperkt tot $\(O(\log p))\$.
@@ -218,4 +327,53 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
    
    $O(\log p)$
 
----
+## Opdracht 7
+
+## Opdracht 8
+
+### Stap 1: Start met Ack(2,3)
+Ack(2,3)=Ack(1,Ack(2,2)).
+### Stap 2: Bereken Ack(2,2)
+Ack(2,2)=Ack(1,Ack(2,1)).
+#### Stap 2.1: Bereken Ack(2,1)
+Ack(2,1)=Ack(1,Ack(2,0)).
+##### Stap 2.1.1: Bereken Ack(2,0)
+Ack(2,0)=Ack(1,1).
+##### Stap 2.1.2: Bereken Ack(1,1)
+Ack(1,1)=Ack(0,Ack(1,0)).
+
+Ack(1,0)=Ack(0,1).
+
+Ack(0,1)=1+1=2.
+
+Dus:
+
+Ack(1,0)=2, Ack(1,1)=Ack(0,2)=2+1=3.
+#### Resultaat Stap 2.1:
+Ack(2,0)=Ack(1,1)=3.
+
+Ack(2,1)=Ack(1,Ack(2,0))=Ack(1,3).
+#### Stap 2.2: Bereken Ack(1,3)
+Ack(1,3)=Ack(0,Ack(1,2)).
+
+Ack(1,2)=Ack(0,Ack(1,1))=Ack(0,3)=3+1=4.
+
+Ack(1,3)=Ack(0,4)=4+1=5.
+
+Dus:
+
+Ack(2,1)=5.
+#### Stap 2.3: Bereken Ack(2,2)
+Ack(2,2)=Ack(1,Ack(2,1))=Ack(1,5).
+
+Ack(1,5)=Ack(0,Ack(1,4))=Ack(0,6)=6+1=7.
+
+Dus:
+
+Ack(2,2)=7.
+### Stap 3: Bereken Ack(2,3)
+Ack(2,3)=Ack(1,Ack(2,2))=Ack(1,7).
+
+Ack(1,7)=Ack(0,Ack(1,6))=Ack(0,8)=8+1=9.
+### Conclusie
+Ack(2,3)=9.
