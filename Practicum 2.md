@@ -56,7 +56,7 @@ Dit betekent:
 
 Dit resulteert in een exponentiële groei van het aantal berekeningen.
 
-De formule voor $ \text{alg a}(n)\$ is:
+De formule voor $\text{alg a}(n)\$ is:
 
 $\text{alg a}(n) = 2 \cdot \text{alg a}(n-1), \quad \text{met } \text{alg a}(1) = 1.\$
 
@@ -91,7 +91,7 @@ $\T(n) = O(2^n).\$
 
 ##Conclusie: 
 
-De tijdscomplexiteit van $\text{alg a}(n) \$ is $\( O(2^n) \$.
+De tijdscomplexiteit van $\text{alg a}(n) \$ is $\( O(2^n)\$.
 
 ---
 
@@ -105,8 +105,8 @@ De tijdscomplexiteit van $\text{alg a}(n) \$ is $\( O(2^n) \$.
 ```
 
 Dit betekent:
-- Als \( n = 1 \), geeft het algoritme \( 1 \) terug.
-- Als \( n > 1 \), vermenigvuldigt het algoritme het resultaat van $\text{alg b}(n-1) \$ met \( 2 \).\$
+- Als ( n = 1 ), geeft het algoritme ( 1 ) terug.
+- Als ( n > 1 ), vermenigvuldigt het algoritme het resultaat van $\text{alg b}(n-1) \$ met \( 2 \).\$
 
 De formule voor $\text{alg b}(n)\$ is:
 
@@ -132,7 +132,7 @@ $\text{alg b}(1, 2, 3, 4, 5) = 1, 2, 4, 8, 16\$
 ---
 
 ### Tijdcomplexiteit
-De tijdscomplexiteit van $ \text{alg b}(n) \$ wordt bepaald door het feit dat het algoritme zichzelf slechts **éénmaal** aanroept per niveau van de recursie. Dit leidt tot een lineaire groei van het aantal aanroepen.
+De tijdscomplexiteit van $\text{alg b}(n)\$ wordt bepaald door het feit dat het algoritme zichzelf slechts **éénmaal** aanroept per niveau van de recursie. Dit leidt tot een lineaire groei van het aantal aanroepen.
 
 De recursievergelijking voor de complexiteit is:
 
