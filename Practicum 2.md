@@ -111,7 +111,7 @@ Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
 ### Algoritme
 
 1. **Basisgeval**:
-   - Als $\(p = 0\): \(x^p = 1\) (\want elke macht met exponent 0 is 1\).\$
+   - Als $\(p = 0\): \(x^p = 1\)\$ (want elke macht met exponent 0 is 1).
    - Als $\(p = 1\): \(x^p = x\) (want \(x^1 = x\)).\$
 
 2. **Recursieve stap**:
