@@ -40,8 +40,11 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 Voor elke verplaatsing van een grotere schijf naar de volgende toren zijn 3 verplaatsingen nodig, behalve bij de laatste.  
 Dit geeft een verband van $3^n - 1$
+
 1 disk = 2 
+
 2 disk = 8
+
 3 disk = 26
 		
 ## Opdracht 4
@@ -105,7 +108,7 @@ De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
 ```plaintext
 1. alg_b(n):resultaat
 2. if n > 1 then
-3.     return(2 \cdot alg_b(n - 1))
+3.     return$(2 \cdot alg_b(n - 1))$
 4. else return(1)
 ```
 
