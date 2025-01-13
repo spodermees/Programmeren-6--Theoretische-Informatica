@@ -111,23 +111,23 @@ Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
 ### Algoritme
 
 1. **Basisgeval**:
-   - Als $\(p = 0\): \(x^p = 1\) (want elke macht met exponent 0 is 1).\$
+   - Als $\(p = 0\): \(x^p = 1\) (\want elke macht met exponent 0 is 1\).\$
    - Als $\(p = 1\): \(x^p = x\) (want \(x^1 = x\)).\$
 
 2. **Recursieve stap**:
    - Voor een even exponent $\((p))\$:
      
-     $\x^p = (x^{p/2})^2\$
+     $x^p = (x^{p/2})^2$
      
    - Voor een oneven exponent $\((p))\$:
      
-     $\x^p = x \cdot x^{p-1}\$
+     $x^p = x \cdot x^{p-1}$
 
 3. **Tijdcomplexiteit**:
    - Bij elke recursieve stap wordt $\(p)\$ gehalveerd of verminderd met 1. Hierdoor is de diepte van de recursieboom $\(O(\log p))\$.
    - Elke stap voert een constante hoeveelheid werk uit $\((O(1)))\$.
    - De totale tijdcomplexiteit is:
-     $\O(\log p)\$
+     $O(\log p)$
 
 ---
 
@@ -210,6 +210,6 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
 3. **Totale tijdcomplexiteit**:
    
-   $\O(\log p)\$
+   $O(\log p)$
 
 ---
