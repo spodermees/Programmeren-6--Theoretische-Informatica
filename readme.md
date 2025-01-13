@@ -16,24 +16,24 @@ Eindstand ik vraag tegen m'n ma en Koert "Hebben jullie een partytent?" "Ja we h
 ## Jan Smit appgroep
 Er is een Jan Smit fan groepsapp op whatsapp, waarschijnlijk in Volendam. Alleen heeft Adela een nieuwe groep gemaakt. Franciska is het hier niet mee eens en laat dir op een vriendelijke manier weten aan Adela.
 
-## Voorstellen
+### Voorstellen
 Hey Adela jij kent mij vast nog wel ik ben Franciska de vriendin van Mitchel. Ik heb van Mitchel gehoord dat jij een Jan Smit app aangemaakt heb en onze leden probeert af te pakken.
 
-## De eerlijke reactie
+### De eerlijke reactie
 
 Waar haal jij het gore tering lef vandaan tering tering tering wijf. Je laat gewoon iedereen met rust ze willen toch niet bij jou in de groep want wij hebben allemaal iedereen op de hoogte gebracht. Dat wij dat niemand wil bij jou in de groep iedereen die jij toevoegd van onze Jan Smit app ga je er gelijk weer uit gooien daar heb ik wel voor gezorgd. En Mitchel en Mark en de andere beheerders maar die ken je niet.
 
-## De vraag
+### De vraag
 
 Waar haal jij het gore lef vandaan om onze vrienden af te pakken met he tyfus golera kop? Je mag van mij lekker de tyfus krijgen de tering en de golera. En je laat iedereen van mijn Jan Smit app gewoon met rust. Klaar, pasta weet je ik weet je altijd te vinden hoor dus pas maar op met je tering tyfus golera kop want ik weet je altijd wel te vinden als je hier mee doorgaat dan weet ik je op te zoeken ik weet je toch wel te vinden. Ik heb conecties genoeg dus pas maar op tering wijf.
 
-## Extra info
+### Extra info
 Franciska is een jaartje of 40 en is een erg gepasioneerde Jan Smit fan.
 
 ## Zware jeugd
 Gino Pietermaai is een in een emotioneel interview aan het praten over zijn jeugd.
 
-Ja, m;n jeugd. Zal ik beginnen? Mijn jeugd was best wel zwaar..
+Ja, m'n jeugd. Zal ik beginnen? Mijn jeugd was best wel zwaar..
 
 MIJN JEUGD WAS ZWAAR MASTER. Ik deed alles wat ik wilde. Ik heb mijn vader leren neuken, ik neukte wie ik wilde. Buiten ging ik vechten met chamos. Ik had een leguaan, die trainde ik als bulldog. Op een gegeven moment heb ik de leguaan leren vissen. Hij ging vissen, hij duikt in die water. Tsjoeng. Ging helemaal omlaag. Kwam hij een keer terug met een dolfijn. Op een gegeven moment ging hij dood man. Hij ging dood omdat zn hart ontploften van de push ups.
 Maar is niet erg man want ik heb zijn vlees verkocht aan wat Tjinezen. Ze hebben shusi mee gemaakt ik heb gecasht. Was leuke jeugd man. Maar vertel: hoe was jouw jeugd Fresku?
@@ -124,3 +124,28 @@ Nee dank-
 Uhhhhh nee hoor dankuwel.
 
 *Onverstaanbaar U mag doorijden*
+
+## Kai zijn hotel kamer
+Ik ben met Kai op winter sport. We hebben net ietjes verkeerd hotel geboekt en ik ga nu aan Kai vertellen dat we niet ons geld terug krijgen en er geen andere kamers zijn.
+
+"Kai"\
+"Yo"\
+"Euhh, we krijgen ons geld niet terug"\
+"Ja hoor meen je dat nou??"\
+"En er zijn ook geen andere kamers"\
+"220 euro hebben we hiervoor betaalt"\
+"Ja"\
+"Op gekankert hoor"\
+"Wat gaan we doen dan?"\
+"Ik sloop die hele kanker kamer"\
+"Ja dag dat doe je echt niet"\
+(Gooit tv)
+
+"Kanker zooi, hoeren kut kanker zooi"\
+(Trapt badkamer naar de kanker)
+
+"Kanker kut hotellllll!!!!!"\
+(Sloopt badkamer veder)\
+(Gaat veder met slaapkamer)\
+"Focking kanker kut"\
+"KANKER HOTEL!!!!"
