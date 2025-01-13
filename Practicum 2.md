@@ -136,12 +136,12 @@ De tijdscomplexiteit van $\text{alg b}(n)\$ wordt bepaald door het feit dat het 
 
 De recursievergelijking voor de complexiteit is:
 
-$ T(n) = T(n-1) + O(1). $
+$T(n) = T(n-1) + O(1).$
 
 
 Oplossing:
 
-$ T(n) = O(n). $
+$T(n) = O(n).$
 
 ##Conclusie: 
 De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
