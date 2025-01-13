@@ -124,7 +124,7 @@ $\text{alg b}(n) = 2 \cdot \text{alg b}(n-1), \quad \text{met } \text{alg b}(1) 
 ---
 
 ### Berekeningen
-Laten we $\text{alg b}(n) \$ berekenen voor $\( n = 1, 2, 3, 4, 5 \).\$
+Laten we $\text{alg b}(n)\$ berekenen voor $\( n = 1, 2, 3, 4, 5 \).\$
 
 1. $\text{alg b}(1) = 1 \$
 2. $\text{alg b}(2) = 2 \cdot \text{alg b}(1) = 2 \$
