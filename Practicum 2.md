@@ -148,7 +148,6 @@ De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
 ---
 
 
-=======
 ## Opdracht 5
 
 ### Recursieve relatie
