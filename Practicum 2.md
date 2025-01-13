@@ -273,6 +273,19 @@ double recPow(double x, int p) {
     if (p == 1) {
         return x; // x^1 = x
     }
+    if (x == 0 && p < 0) {
+        throw std::invalid_argument("Undefined: 0 raised to a negative power");
+    }
+    if (x == 0 && p == 0) {
+        throw std::invalid_argument("Undefined: 0 raised to the power of 0");
+    }
+    if (x == 0 && p > 0) {
+        return 0; // 0 raised to any positive power is 0
+    }
+    if (p < 0) {
+        return 1 / recPow(x, -p); // Handle negative exponents
+    }
+
 
     // Als p even is
     if (p % 2 == 0) {
