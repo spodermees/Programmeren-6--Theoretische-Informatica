@@ -1,4 +1,4 @@
-public class Opdr7 {
+public class Opdr7 { 
     public static void main(String[] args){
         formule(1);
         korter(5);
