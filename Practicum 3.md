@@ -141,3 +141,13 @@ Verbinding C -> D (Zuid -> City Mall): 20 minuten
 Verbinding D -> E (City Mall -> Mega Plaza): 5 minuten
 
 Verbinding F -> G (Stadziekenhuis -> Zuidkliniek): 25 minuten
+
+##Opdracht 9
+Een boom is een graaf die samenhangend(er is een pad tussen elke twee knopen) en acyclisch(er zijn geen cycli) is.
+
+Een boom met n knopen heeft altijd $n - 1$ takken. Dit is een algemen eigenschap van bomen.
+
+stel je voor dat je een boom hebt met n knopen.
+
+Elke keer als je een nieuwe knoop toevoegt aan een boom moet je deze knoop verbinden met een bestaande knoop met 1 tak. Dit betekent dat de boom met n knopen precies $n-1$ takken nodig heeft om alles te verbinden zonder een cyclus te vormen. 
+Als je 1 knoop hebt betekent dat je geen tak nodig hebt om hem te verbinden met een andere knoop.
