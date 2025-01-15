@@ -10,6 +10,6 @@ Om het aantal opspannende bomen te berekenen kan je voor deze graaf gebruik make
 
 Waarbij n het aantal knopen $K_{4}$ is dus wordt het:
 
-4^(4-2) = 4^2 = 16
+$$4^{(4-2)} = 4^2 = 16$$
 
 Dus de graaf van $K_{4}$ heeft 16 opspannende bomen
