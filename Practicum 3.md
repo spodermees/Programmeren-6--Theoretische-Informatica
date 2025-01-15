@@ -1,4 +1,7 @@
 ## Opdracht 1
+
+ Schrijf een programma dat bepaalt of het vermoeden van Collatz opgaat
+voor een gegeven natuurlijk getal n
 ```cpp
 #include <iostream>
 
