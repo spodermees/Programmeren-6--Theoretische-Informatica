@@ -79,13 +79,24 @@ Als het een vraag is dan ja en anders Waar.
  Hoe lang is die rij?
 met 178 stappen
 
+## Opdracht 2 
+
+De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn dus in dit geval afstand
+
 ## Opdracht 3
+
 De kortste route zou zijn met de De gewone graaf alles is 1 keer bezocht en je kan weer terug komen waar je starten.
 
+## Opgave 4 
+
+Ja dit kan dan wordt dit dit een gewone graaf
+
 ## Opdracht 5
+
 Dat zijn 2 kleuren er want niet elke knoop is verbonden met elkaar
 
-## Opdracht 6 
+## Opdracht 6
+
 Een praktisch voorbeeld van het knoopgewogen graaf probleem is: 'het Transportnetwerk van een stad.'
 
 Een stad heeft verschillende knooppunten met belangrijke locaties denct winkelcentra, stations, ziekenhuis, etc. En het gewicht van een knoop kan bijvoorbeeld de populate, de (gemiddelde) reistijd zijn.
@@ -148,10 +159,16 @@ Verbinding D -> E (City Mall -> Mega Plaza): 5 minuten
 
 Verbinding F -> G (Stadziekenhuis -> Zuidkliniek): 25 minuten
 
+## Opgave 7 
+
+Nee dit kan niet, de knopen zitten gekruisd van elkaar dus om elkaar te bereiken moeten ze altijd snijden
+
 ## Opdracht 8
+
 ik snap het niet en gpt daddy
 
 ## Opdracht 9
+
 Een boom is een graaf die samenhangend(er is een pad tussen elke twee knopen) en acyclisch(er zijn geen cycli) is.
 
 Een boom met n knopen heeft altijd $n - 1$ takken. Dit is een algemen eigenschap van bomen.
