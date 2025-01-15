@@ -119,7 +119,11 @@ Knoop G (Zuidkliniek): Gewicht 4000 (patiënten)
 In dit voorbeeld gebruiken we de reistijd tussen de knopen als het gewicht:
 
 Verbinding A -> B (Centrum -> Oost): 10 minuten
+
 Verbinding B -> C (Oost -> Zuid): 15 minuten
+
 Verbinding C -> D (Zuid -> City Mall): 20 minuten
+
 Verbinding D -> E (City Mall -> Mega Plaza): 5 minuten
+
 Verbinding F -> G (Stadziekenhuis -> Zuidkliniek): 25 minuten
