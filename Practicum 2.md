@@ -135,86 +135,7 @@ De tijdscomplexiteit van $\text{alg b}(n)\$ wordt bepaald door het feit dat het 
 
 De recursievergelijking voor de complexiteit is:
 
-$T(n) = T(n-1) + O(1).$
 
-
-Oplossing:
-
-$T(n) = O(n).$
-
-### Conclusie: 
-De tijdscomplexiteit van $\text{alg b}(n) is O(n)\$.
-
----
-
-
-## Opdracht 5
-
-### Recursieve relatie
-Bij de vermenigvuldiging van twee n-bit getallen, splitsen we de getallen x en y elk op in twee helften:
-
-$$x = x_L \cdot 2^{n/2} + x_R, \quad y = y_L \cdot 2^{n/2} + y_R$$,
-
-waar x_L en x_R respectievelijk de bovenste en onderste n/2 bits van x zijn. Hetzelfde geldt voor y_L en y_R.
-
-De vermenigvuldiging $x \cdot y$ kan dan worden uitgedrukt als:
-
-$$x \cdot y = (x_L \cdot 2^{n/2} + x_R) \cdot (y_L \cdot 2^{n/2} + y_R)$$,
-
-wat uitbreidt naar:
-
-$$x \cdot y = (x_L \cdot y_L) \cdot 2^n + ((x_L \cdot y_R) + (x_R \cdot y_L)) \cdot 2^{n/2} + (x_R \cdot y_R)$$.
-
-Dit vereist vier vermenigvuldigingen:
-1. $x_L \cdot y_L$,
-2. $x_L \cdot y_R$,
-3. $x_R \cdot y_L$,
-4. $x_R \cdot y_R$.
-
-Daarnaast zijn er schuifoperaties $(2^n$ en $2^{n/2})$ en optellingen, die elk een lagere complexiteit hebben.
-
-De recursieve relatie is dus:
-
-$$T(n) = 4 \cdot T(n/2) + O(n)$$,
-
-waar O(n) de kosten van optellen en schuiven vertegenwoordigt.
-
-### Recursief algoritme
-Hier is een recursief algoritme in pseudocode:
-
-```
-function multiply(x, y, n):
-    if n == 1:
-        return x * y  # Basisgeval: vermenigvuldig 1-bit getallen
-    
-    // Splits x en y in bovenste en onderste helft
-    x_L, x_R = split(x, n/2)
-    y_L, y_R = split(y, n/2)
-    
-    // Recursieve vermenigvuldigingen
-    P1 = multiply(x_L, y_L, n/2)
-    P2 = multiply(x_L, y_R, n/2)
-    P3 = multiply(x_R, y_L, n/2)
-    P4 = multiply(x_R, y_R, n/2)
-    
-    // Combineer resultaten
-    return P1 * 2^n + (P2 + P3) * 2^(n/2) + P4
-```
-
-### Tijdcomplexiteit
-De recursieve relatie $T(n) = 4 \cdot T(n/2) + O(n)$ kan worden opgelost met de Master Theorem:
-- a = 4 (aantal recursieve oproepen),
-- b = 2 (factor waarmee het probleem wordt verkleind),
-- f(n) = O(n) (toevoegende complexiteit).
-
-
-Volgens de Master Theorem is de oplossing van T(n):
-
-$$T(n) = O(n^{\log_2 4}) = O(n^2)$$.
-
-Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
-
-## Opdracht 6
 
 ## Recursieve benadering voor $\(x^p)\$
 
@@ -358,8 +279,11 @@ public static double korter(double n){
 ### d
 Bewijs:
 
-herschrijven van $ 1 \over j(j+1)$ na splitsen van breuken wordt het $1 \over j$ - $1 \over j + 1$.
+Herschrijven van $ 1 \over j(j+1)$ na splitsen van breuken wordt het $1 \over j$ - $1 \over j + 1$.
 
 Het wordt totaal:\
 $\sum_{j=1}^n =$ $ 1\over j$ - $ 1 \over j+1$\
 Verhef de opeenvolgende termen:\
+($ 1\over1$- $ 1\over 2$) + ($ 1\over 2$ - $1\over3$) +  . . . + ($1\over n$- $1\over n + 1$)\
+Dit kan worden gereduceert tot:\
+$1 -$ $ 1\over n + 1$ 

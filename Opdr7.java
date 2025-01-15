@@ -1,15 +1,15 @@
 public class Opdr7 {
     public static void main(String[] args){
-        formule(5);
+        formule(1);
         korter(5);
 
-        formule(34);
+        formule(2);
         korter(34);
 
-        formule(69);
+        formule(3);
         korter(69);
 
-        formule(100);
+        formule(4);
         korter(100);
 
 
