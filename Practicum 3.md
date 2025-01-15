@@ -165,7 +165,13 @@ Nee dit kan niet, de knopen zitten gekruisd van elkaar dus om elkaar te bereiken
 
 ## Opdracht 8
 
-ik snap het niet en gpt daddy
+Om het aantal opspannende bomen te berekenen kan je voor deze graaf gebruik maken van $K_{n}$ en die wordt gegeven door $n^{n-2}$.
+
+Waarbij n het aantal knopen $K_{4}$ is dus wordt het:
+
+$$4^{(4-2)} = 4^2 = 16$$
+
+Dus de graaf van $K_{4}$ heeft 16 opspannende bomen
 
 ## Opdracht 9
 
