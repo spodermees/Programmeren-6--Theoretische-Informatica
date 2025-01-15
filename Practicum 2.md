@@ -345,6 +345,49 @@ Bij het uitvoeren van de bovenstaande code krijg je de volgende output:
 
 ## Opdracht 7
 
+### a
+```
+    public static double formule(double n){
+        double antwoord = 0;
+
+        for(double j = 1; j <= n; j++) antwoord += 1/(j*(j+1));
+        System.out.println("Voor n = "+ n + " is de uitkomst: "+ antwoord);
+        return antwoord;
+    }
+```
+### b
+Resultaten:
+
+```
+Voor n = 5.0 is de uitkomst: 0.8333333333333334
+Voor n = 34.0 is de uitkomst: 0.9714285714285712
+Voor n = 69.0 is de uitkomst: 0.9857142857142854
+Voor n = 100.0 is de uitkomst: 0.9900990099009898
+```
+
+### c
+Je kan de formule $1\over j(j + 1)$ kan worden omgeschreven naar $1\over j$ - $1\over j + 1$ wat kan worden herschreven tot $\sum_{j=1}^{n} = 1 - {1\over n + 1}$. Dus kan de functie worden herschreven tot een enkele regel:
+```
+public static double korter(double n){
+
+        double antwoord = 1 - 1.0f / (n + 1);
+        System.out.println("Een regel: " + antwoord);
+        return antwoord;
+    }
+```
+
+### d
+Bewijs:
+
+Herschrijven van $1\over j(j+1)$ na splitsen van breuken wordt het $1\over j$ - $1\over j + 1$.
+
+Het wordt totaal:\
+$\sum_{j=1}^n =$ $1\over j$ - $1\over j+1$\
+Verhef de opeenvolgende termen:\
+($1\over1$- $1\over 2$) + ($1\over 2$ - $1\over3$) +  . . . + ($1\over n$- $1\over n + 1$)\
+Dit kan worden gereduceert tot:\
+$1 -$ $1\over n + 1$ 
+
 ## Opdracht 8
 
 ### Stap 1: Start met Ack(2,3)
