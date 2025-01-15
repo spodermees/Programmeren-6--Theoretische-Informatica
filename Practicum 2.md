@@ -38,6 +38,15 @@ Met deze iteratieve aanpak wordt het stapelgeheugen niet belast door recursieve 
 
 ## Opdracht 3
 
+Voor elke verplaatsing van een grotere schijf naar de volgende toren zijn 3 verplaatsingen nodig, behalve bij de laatste.  
+Dit geeft een verband van $3^n - 1$
+
+1 disk = 2 
+
+2 disk = 8
+
+3 disk = 26
+		
 ## Opdracht 4
 
 ### Algoritme 1:  $\text{alg a}(n)\$
@@ -88,9 +97,9 @@ Oplossing:
 
 $T(n) = O(2^n).$
 
-Conclusie: 
+Conclusie:
 
-De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
+De tijdscomplexiteit van $\text{alg a}(n) \text{ is } ( O(2^n)\$.
 
 ---
 
@@ -99,13 +108,13 @@ De tijdscomplexiteit van $\text{alg a}(n) is ( O(2^n)\$.
 ```plaintext
 1. alg_b(n):resultaat
 2. if n > 1 then
-3.     return(2 \cdot alg_b(n - 1))
+3.     return$(2 \cdot alg_b(n - 1))$
 4. else return(1)
 ```
 
 Dit betekent:
 - Als ( n = 1 ), geeft het algoritme ( 1 ) terug.
-- Als ( n > 1 ), vermenigvuldigt het algoritme het resultaat van $\text{alg b}(n-1) \$ met \( 2 \).\$
+- Als ( n > 1 ), vermenigvuldigt het algoritme het resultaat van $\text{alg b}(n-1)\$ met $\( 2 \).\$
 
 De formule voor $\text{alg b}(n)\$ is:
 
@@ -115,7 +124,7 @@ $\text{alg b}(n) = 2 \cdot \text{alg b}(n-1), \quad \text{met } \text{alg b}(1) 
 ---
 
 ### Berekeningen
-Laten we $\text{alg b}(n) \$ berekenen voor \( n = 1, 2, 3, 4, 5 \).\$
+Laten we $\text{alg b}(n)\$ berekenen voor $\( n = 1, 2, 3, 4, 5 \).\$
 
 1. $\text{alg b}(1) = 1 \$
 2. $\text{alg b}(2) = 2 \cdot \text{alg b}(1) = 2 \$
@@ -135,7 +144,85 @@ De tijdscomplexiteit van $\text{alg b}(n)\$ wordt bepaald door het feit dat het 
 
 De recursievergelijking voor de complexiteit is:
 
+$T(n) = T(n-1) + O(1).$
 
+
+Oplossing:
+
+$T(n) = O(n).$
+
+### Conclusie: 
+De tijdscomplexiteit van $\text{alg b}(n) \text{ is } O(n)\$.
+
+---
+
+## Opdracht 5
+
+### Recursieve relatie
+Bij de vermenigvuldiging van twee n-bit getallen, splitsen we de getallen x en y elk op in twee helften:
+
+$$x = x_L \cdot 2^{n/2} + x_R, \quad y = y_L \cdot 2^{n/2} + y_R$$,
+
+waar x_L en x_R respectievelijk de bovenste en onderste n/2 bits van x zijn. Hetzelfde geldt voor y_L en y_R.
+
+De vermenigvuldiging $x \cdot y$ kan dan worden uitgedrukt als:
+
+$$x \cdot y = (x_L \cdot 2^{n/2} + x_R) \cdot (y_L \cdot 2^{n/2} + y_R)$$,
+
+wat uitbreidt naar:
+
+$$x \cdot y = (x_L \cdot y_L) \cdot 2^n + ((x_L \cdot y_R) + (x_R \cdot y_L)) \cdot 2^{n/2} + (x_R \cdot y_R)$$.
+
+Dit vereist vier vermenigvuldigingen:
+1. $x_L \cdot y_L$,
+2. $x_L \cdot y_R$,
+3. $x_R \cdot y_L$,
+4. $x_R \cdot y_R$.
+
+Daarnaast zijn er schuifoperaties $(2^n$ en $2^{n/2})$ en optellingen, die elk een lagere complexiteit hebben.
+
+De recursieve relatie is dus:
+
+$$T(n) = 4 \cdot T(n/2) + O(n)$$,
+
+waar O(n) de kosten van optellen en schuiven vertegenwoordigt.
+
+### Recursief algoritme
+Hier is een recursief algoritme in pseudocode:
+
+```
+function multiply(x, y, n):
+    if n == 1:
+        return x * y  # Basisgeval: vermenigvuldig 1-bit getallen
+    
+    // Splits x en y in bovenste en onderste helft
+    x_L, x_R = split(x, n/2)
+    y_L, y_R = split(y, n/2)
+    
+    // Recursieve vermenigvuldigingen
+    P1 = multiply(x_L, y_L, n/2)
+    P2 = multiply(x_L, y_R, n/2)
+    P3 = multiply(x_R, y_L, n/2)
+    P4 = multiply(x_R, y_R, n/2)
+    
+    // Combineer resultaten
+    return P1 * 2^n + (P2 + P3) * 2^(n/2) + P4
+```
+
+### Tijdcomplexiteit
+De recursieve relatie $T(n) = 4 \cdot T(n/2) + O(n)$ kan worden opgelost met de Master Theorem:
+- a = 4 (aantal recursieve oproepen),
+- b = 2 (factor waarmee het probleem wordt verkleind),
+- f(n) = O(n) (toevoegende complexiteit).
+
+
+Volgens de Master Theorem is de oplossing van T(n):
+
+$$T(n) = O(n^{\log_2 4}) = O(n^2)$$.
+
+Dus de tijdcomplexiteit van dit algoritme is $O(n^2)$.
+
+## Opdracht 6
 
 ## Recursieve benadering voor $\(x^p)\$
 
@@ -194,6 +281,19 @@ double recPow(double x, int p) {
     if (p == 1) {
         return x; // x^1 = x
     }
+    if (x == 0 && p < 0) {
+        throw std::invalid_argument("Niet bekend: 0 tot de macht van een negatief getal");
+    }
+    if (x == 0 && p == 0) {
+        throw std::invalid_argument("Niet bekend: 0 tot de macht van 0 niet bekend");
+    }
+    if (x == 0 && p > 0) {
+        return 0; // Als het 0 tot de macht van 0 is
+    }
+    if (p < 0) {
+        return 1 / recPow(x, -p); // In het geval van negatieve getallen
+    }
+
 
     // Als p even is
     if (p % 2 == 0) {
@@ -287,3 +387,52 @@ Verhef de opeenvolgende termen:\
 ($1\over1$- $1\over 2$) + ($1\over 2$ - $1\over3$) +  . . . + ($1\over n$- $1\over n + 1$)\
 Dit kan worden gereduceert tot:\
 $1 -$ $1\over n + 1$ 
+
+## Opdracht 8
+
+### Stap 1: Start met Ack(2,3)
+Ack(2,3)=Ack(1,Ack(2,2)).
+### Stap 2: Bereken Ack(2,2)
+Ack(2,2)=Ack(1,Ack(2,1)).
+#### Stap 2.1: Bereken Ack(2,1)
+Ack(2,1)=Ack(1,Ack(2,0)).
+##### Stap 2.1.1: Bereken Ack(2,0)
+Ack(2,0)=Ack(1,1).
+##### Stap 2.1.2: Bereken Ack(1,1)
+Ack(1,1)=Ack(0,Ack(1,0)).
+
+Ack(1,0)=Ack(0,1).
+
+Ack(0,1)=1+1=2.
+
+Dus:
+
+Ack(1,0)=2, Ack(1,1)=Ack(0,2)=2+1=3.
+#### Resultaat Stap 2.1:
+Ack(2,0)=Ack(1,1)=3.
+
+Ack(2,1)=Ack(1,Ack(2,0))=Ack(1,3).
+#### Stap 2.2: Bereken Ack(1,3)
+Ack(1,3)=Ack(0,Ack(1,2)).
+
+Ack(1,2)=Ack(0,Ack(1,1))=Ack(0,3)=3+1=4.
+
+Ack(1,3)=Ack(0,4)=4+1=5.
+
+Dus:
+
+Ack(2,1)=5.
+#### Stap 2.3: Bereken Ack(2,2)
+Ack(2,2)=Ack(1,Ack(2,1))=Ack(1,5).
+
+Ack(1,5)=Ack(0,Ack(1,4))=Ack(0,6)=6+1=7.
+
+Dus:
+
+Ack(2,2)=7.
+### Stap 3: Bereken Ack(2,3)
+Ack(2,3)=Ack(1,Ack(2,2))=Ack(1,7).
+
+Ack(1,7)=Ack(0,Ack(1,6))=Ack(0,8)=8+1=9.
+### Conclusie
+Ack(2,3)=9.

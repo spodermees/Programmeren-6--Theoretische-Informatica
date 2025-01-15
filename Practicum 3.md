@@ -7,3 +7,4 @@ Dat zijn 2 kleuren er want niet elke knoop is verbonden met elkaar
 
 ## Opdracht 8
 ik snap het niet en gpt daddy
+
