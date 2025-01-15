@@ -282,7 +282,7 @@ Bewijs:
 Herschrijven van $1\over j(j+1)$ na splitsen van breuken wordt het $1\over j$ - $1\over j + 1$.
 
 Het wordt totaal:\
-$\sum_{j=1}^n =$ $ 1\over j$ - $ 1 \over j+1$\
+$\sum_{j=1}^n = 1\over j - 1 \over j+1\
 Verhef de opeenvolgende termen:\
 ($ 1\over1$- $ 1\over 2$) + ($ 1\over 2$ - $1\over3$) +  . . . + ($1\over n$- $1\over n + 1$)\
 Dit kan worden gereduceert tot:\
