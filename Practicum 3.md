@@ -81,25 +81,25 @@ met 178 stappen
 
 ## Opdracht 2 
 
-De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn dus in dit geval afstand
+De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn, dus in dit geval afstand.
 
 ## Opdracht 3
 
-De kortste route zou zijn met de De gewone graaf alles is 1 keer bezocht en je kan weer terug komen waar je starten.
+De kortste route zou zijn met de gewone graaf. Alles is 1 keer bezocht en je kan weer terug komen waar je startte.
 
 ## Opgave 4 
 
-Ja dit kan dan wordt dit dit een gewone graaf
+Ja dit kan, dan wordt dit dit een gewone graaf.
 
 ## Opdracht 5
 
-Dat zijn 4 kleuren dit is omdat elke knoop met elkaar is verbonden.
+Dat zijn 4 kleuren, dit is omdat elke knoop met elkaar is verbonden.
 
 ## Opdracht 6
 
 Een praktisch voorbeeld van het knoopgewogen graaf probleem is: 'het Transportnetwerk van een stad.'
 
-Een stad heeft verschillende knooppunten met belangrijke locaties denct winkelcentra, stations, ziekenhuis, etc. En het gewicht van een knoop kan bijvoorbeeld de populate, de (gemiddelde) reistijd zijn.
+Een stad heeft verschillende knooppunten met belangrijke locaties zoals winkelcentra, stations, ziekenhuis, etc. En het gewicht van een knoop kan bijvoorbeeld de populatie, de (gemiddelde) reistijd zijn.
 
 ### Gedetailleerd voorbeld 
 
@@ -161,7 +161,7 @@ Verbinding F -> G (Stadziekenhuis -> Zuidkliniek): 25 minuten
 
 ## Opgave 7 
 
-Nee dit kan niet, de knopen zitten gekruisd van elkaar dus om elkaar te bereiken moeten ze altijd snijden
+Nee dit kan niet, de knopen zitten gekruisd van elkaar, dus om elkaar te bereiken moeten ze altijd snijden.
 
 ## Opdracht 8
 
