@@ -81,19 +81,19 @@ met 178 stappen
 
 ## Opdracht 2 
 
-De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn, dus in dit geval afstand.
+De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn dus in dit geval afstand
 
 ## Opdracht 3
 
-De kortste route zou zijn met de gewone graaf. Alles is 1 keer bezocht en je kan weer terug komen waar je startte.
+De kortste route zou zijn met de De gewone graaf alles is 1 keer bezocht en je kan weer terug komen waar je starten.
 
 ## Opgave 4 
 
-Ja dit kan, dan wordt dit een gewone graaf.
+Ja dit kan dan wordt dit dit een gewone graaf
 
 ## Opdracht 5
 
-Dat zijn 2 kleuren er want niet elke knoop is verbonden met elkaar
+Dat zijn 4 kleuren dit is omdat elke knoop met elkaar is verbonden.
 
 ## Opdracht 6
 
