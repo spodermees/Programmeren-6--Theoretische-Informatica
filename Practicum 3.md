@@ -89,31 +89,45 @@ Een stad heeft verschillende knooppunten met belangrijke locaties denct winkelce
 Wijken in de stad:
 
 Knoop A: Wijk "Centrum" heeft een gewicht van 5000 (aantal bewoners).
+
 Knoop B: Wijk "Oost" heeft een gewicht van 3000 (aantal bewoners).
+
 Knoop C: Wijk "Zuid" heeft een gewicht van 2000 (aantal bewoners).
 
 Belang van een winkelcentrum:
 
 Knoop D: Winkelcentrum "City Mall" heeft een gewicht van 10000 (aantal bezoekers per dag).
+
 Knoop E: Winkelcentrum "Mega Plaza" heeft een gewicht van 8000 (aantal bezoekers per dag).
 
 Ziekenhuislocaties:
 
 Knoop F: Ziekenhuis "Stadziekenhuis" heeft een gewicht van 5000 (aantal patiënten per maand).
+
 Knoop G: Ziekenhuis "Zuidkliniek" heeft een gewicht van 4000 (aantal patiënten per maand).
 
 Verbindingen:
 
 De verbindingen tussen de knopen zouden de wegen of openbaar vervoersverbindingen kunnen vertegenwoordigen. Bijvoorbeeld:
+
 Er is een verbinding tussen "Centrum" (A) en "Oost" (B) die bijvoorbeeld 20 minuten duurt.
+
 Er is een verbinding tussen "City Mall" (D) en "Zuid" (C) die 15 minuten duurt.
+
 Gewogen graaf:
+
 Knoop A (Centrum): Gewicht 5000 (populatie)
+
 Knoop B (Oost): Gewicht 3000 (populatie)
+
 Knoop C (Zuid): Gewicht 2000 (populatie)
+
 Knoop D (City Mall): Gewicht 10000 (bezoekers)
+
 Knoop E (Mega Plaza): Gewicht 8000 (bezoekers)
+
 Knoop F (Stadziekenhuis): Gewicht 5000 (patiënten)
+
 Knoop G (Zuidkliniek): Gewicht 4000 (patiënten)
 
 In dit voorbeeld gebruiken we de reistijd tussen de knopen als het gewicht:
