@@ -266,7 +266,7 @@ Voor n = 100.0 is de uitkomst: 0.9900990099009898
 ```
 
 ### c
-Je kan de formule $1\over j(j + 1)$ kan worden omgeschreven naar $1\over j$ - $1\over j + 1$ wat kan worden herschreven tot $ \sum_{j=1}^{n} = 1 - {1\over n + 1}$ . Dus kan de functie worden herschreven tot een enkele regel:
+Je kan de formule $1\over j(j + 1)$ kan worden omgeschreven naar $1\over j$ - $1\over j + 1$ wat kan worden herschreven tot $\sum_{j=1}^{n} = 1 - {1\over n + 1}$. Dus kan de functie worden herschreven tot een enkele regel:
 ```
 public static double korter(double n){
 
@@ -279,7 +279,7 @@ public static double korter(double n){
 ### d
 Bewijs:
 
-Herschrijven van $ 1 \over j(j+1)$ na splitsen van breuken wordt het $1 \over j$ - $1 \over j + 1$.
+Herschrijven van $1\over j(j+1)$ na splitsen van breuken wordt het $1\over j$ - $1\over j + 1$.
 
 Het wordt totaal:\
 $\sum_{j=1}^n =$ $ 1\over j$ - $ 1 \over j+1$\
