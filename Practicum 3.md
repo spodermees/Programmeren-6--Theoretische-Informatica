@@ -81,15 +81,15 @@ met 178 stappen
 
 ## Opdracht 2 
 
-De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn dus in dit geval afstand
+De gewogen graaf, aan deze graaf kan een 'takgewicht' toegewezen worden, dit takgewicht kan bijvoorbeeld afstand of reistijd zijn, dus in dit geval afstand.
 
 ## Opdracht 3
 
-De kortste route zou zijn met de De gewone graaf alles is 1 keer bezocht en je kan weer terug komen waar je starten.
+De kortste route zou zijn met de gewone graaf. Alles is 1 keer bezocht en je kan weer terug komen waar je startte.
 
 ## Opgave 4 
 
-Ja dit kan dan wordt dit dit een gewone graaf
+Ja dit kan, dan wordt dit een gewone graaf.
 
 ## Opdracht 5
 
